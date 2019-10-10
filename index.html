@@ -7,9 +7,10 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="./assets/js/hideNavOnScroll.js"></script>
 	</head>
 	<body>	
-		<nav class="navbar fixed-top navbar-expand-lg">
+		<nav id="navbar" class="navbar fixed-top navbar-expand-lg">
 			<a class="navbar-brand" href="#main">Michael Li</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -45,7 +46,7 @@
 		<div id="main">
 			<section id="welcome">
 				<div class="container">
-					<div id="welcomeContainer" class="row">
+					<div id="welcomeInfo" class="row">
 						<div>
 							<p id="hello" class="red">Hello, my name is</p>
 							<strong id="welcomeName">Michael Li.</strong>
@@ -53,9 +54,9 @@
 							a strong foundation in data structures and algorithms.</p>
 						</div>
 						<div id="socials">
-							<a class="fa fa-linkedin-square icon" href="https://www.linkedin.com/in/mikeli-96/"></a>
-							<a class="fa fa-github icon" href="https://github.com/MichaelLi-96"></a>
-							<a class="fa fa-file icon" href="#about"></a>
+							<a class="fa fa-linkedin-square welcomeIcon" href="https://www.linkedin.com/in/mikeli-96/" target="_blank" rel="nofollow noopener noreferrer"></a>
+							<a class="fa fa-github welcomeIcon" href="https://github.com/MichaelLi-96" target="_blank" rel="nofollow noopener noreferrer"></a>
+							<a class="fa fa-file welcomeIcon" href="./assets/resume/Li_Michael_Resume.pdf" target="_blank" rel="nofollow noopener noreferrer"></a>
 						</div>
 					</div>
 				</div>
@@ -84,58 +85,11 @@
 			<!-- Portfolio -->
 				<section id="portfolio">
 					<div class="container">
-						<header>
-							<h2>Portfolio</h2>
-						</header>
-
-						<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-						egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-						Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-						fusce hendrerit lacus ridiculus.</p>
-
 						<div class="row">
-							<div class="col-4 col-12-mobile">
-								<article class="item">
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<header>
-										<h3>Ipsum Feugiat</h3>
-									</header>
-								</article>
-								<article class="item">
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<header>
-										<h3>Rhoncus Semper</h3>
-									</header>
-								</article>
-							</div>
-							<div class="col-4 col-12-mobile">
-								<article class="item">
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<header>
-										<h3>Magna Nullam</h3>
-									</header>
-								</article>
-								<article class="item">
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<header>
-										<h3>Natoque Vitae</h3>
-									</header>
-								</article>
-							</div>
-							<div class="col-4 col-12-mobile">
-								<article class="item">
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<header>
-										<h3>Dolor Penatibus</h3>
-									</header>
-								</article>
-								<article class="item">
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<header>
-										<h3>Orci Convallis</h3>
-									</header>
-								</article>
-							</div>
+							<header class="sectionHeader">
+								<div class="sectionNum red">02.</div>
+								<h2>Portfolio</h2>
+							</header>
 						</div>
 
 					</div>
@@ -146,8 +100,8 @@
 						<div class="row">
 							<div class="col">
 								<header class="sectionHeader">
-									<div class="sectionNum">01.</div>
-									<h2>About Me</h2>
+									<div class="sectionNum red">03.</div>
+									<h2>Skills</h2>
 								</header>
 								<p>I am a recent graduate from San Jose State University with a B.S. in Software Engineering. Throughout my college career, I have gained valuable experience and technical skills. Some of these include web and mobile app development, data structures and algorithms, database management, user interface/experience, and computer security. I also have experience in agile software development and the ability to work well together with different teams. I am eager to learn new skills and technologies as well as build on top of my existing skill set.<br /> 
 								<br /> 
@@ -161,41 +115,47 @@
 				</section>
 				<!-- Contact -->
 				<section id="contact">
-					<div class="container">
-
-						<header>
-							<h2>Contact</h2>
-						</header>
-
-						<p>Elementum sem parturient nulla quam placerat viverra
-						mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-						donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-						orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
-
-						<form method="post" action="#">
-							<div class="row">
-								<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-								<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-								<div class="col-12">
-									<textarea name="message" placeholder="Message"></textarea>
+					<div id="contactContainer" class="container">
+						<div class="row center">
+							<header class="sectionHeader">
+								<div class="sectionNum red">04.</div>
+								<h2>Contact</h2>
+							</header>
+						</div>
+						<div class="row center">
+							<strong id="getInTouch" class="red">Get in Touch.</strong>
+						</div>
+						<div class="row center">
+							<form action="https://mailthis.to/michaelli.sw.eng@gmail.com"  method="POST" encType="multipart/form-data" autocomplete="off">
+								<div class="row">
+									<div class="col-6 col-12-mobile center formDiv">
+										<input type="text" name="name" placeholder="Name" class="form"/>
+									</div>
+									<div class="col-6 col-12-mobile center formDiv">
+										<input type="text" name="email" placeholder="Email"  class="form" />
+									</div>
+									<div class="col-12 center formDiv">
+										<input type="text" name="subject" placeholder="Subject"  class="form" />
+									</div>
+									<div class="col-12 center formDiv">
+										<textarea name="message" placeholder="Message" class="form"></textarea>
+									</div>
+									<div class="col-12 center formDiv">
+										<input type="submit" value="Send Message" id="sendBtn"/>
+									</div>
 								</div>
-								<div class="col-12">
-									<input type="submit" value="Send Message" />
-								</div>
-							</div>
-						</form>
-
+							    <input type="hidden" name="_honeypot" value="">
+							    <input type="hidden" name="_confirmation" value="Your message was successfully sent to Michael Li!">
+							</form>
+						</div>
 					</div>
 				</section>
 			</div>
 
 
-		<!-- Footer -->
-		<div id="footer">
-			<!-- Copyright -->
-			<ul class="copyright">
-				<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-			</ul>
+		<div id="footer" class="center">
+			<i class="fa fa-copyright red footerIcon">2019</i>
+			<div class="footerText red">Michael Li</div>
 		</div>
 
 		<!-- Scripts -->
