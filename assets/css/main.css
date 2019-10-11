@@ -16,8 +16,13 @@ p {
 	color: #F50057;
 }
 
-.pink {
-	color: #FF80AB;
+.grey {
+	color: #CDCDCD;
+}
+
+.container {
+	padding-right: 30px !important;
+	padding-left: 30px !important;
 }
 
 .center {
@@ -28,13 +33,14 @@ p {
 
 .container {
 	height: 100%;
-	border-bottom: solid;
-	border-width: 1px;
-	border-color: #F50057;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: : center;
+}
+
+.redBorder {
+	border-top: solid;
+	border-width: 1px;
+	border-color: #F50057;
 }
 
 #socials {
@@ -49,7 +55,7 @@ p {
 	height: 75px;
 	padding-left: 50px !important;
 	padding-right: 50px !important;
-	background-color: transparent;
+	background-color: #212226;
 	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
 	-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
 	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
@@ -112,9 +118,13 @@ p {
 
 /* Welcome Section*/
 #welcome {
+	height: 100%;
 	display: flex;
-	align-items: center;
-	height: 1000px;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 250px;
+	padding-bottom: 200px;
+	
 }
 
 #welcomeInfo {
@@ -132,7 +142,6 @@ p {
 }
 
 .welcomeIcon {
-	color: white;
 	font-size: 30px !important;
 	text-decoration: none !important;
 	margin-right: 30px;
@@ -142,17 +151,86 @@ p {
 	color: #F50057;
 }
 
+#arrowContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.arrow {
+	height: 80px;
+	width: 80px;
+	border: solid;
+	border-color: #F50057;
+	border-width: 2px;
+	border-top: none;
+	border-left: none;
+	transform: rotate(45deg);
+}
+
+#bottomArrow {
+	height: 100px;
+	width: 100px;
+	margin-top: -85px;
+}
+
+/* About Section*/
 #about {
-	
+	height: 100%;
+	padding-top: 200px;
+	padding-bottom: 300px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#portfolioImageContainer {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#portfolioImage {
+	width: 70%;
+	height: auto;
+	border-radius: 20px;
+  	box-shadow: 1.25em 1.25em 0 0 #212226, 1.25em 1.25em 0 1px #F50057;
+}
+
+/* Contact Section*/
+#portfolio {
+	height: 1000px;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Skills Section*/
+#skills {
+	height: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#skillsHeader {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 /* Contact Section*/
 #contact {
-	height: 862px;
-}
-
-#contactContainer {
-	border-width: 0px;
+	height: 100%;
+	padding-top: 75px;
+	padding-bottom: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 #getInTouch {
@@ -230,5 +308,5 @@ textarea {
 	margin-bottom: 2px;
 }
 .footerText {
-	font-size: 18px;
+	font-size: 16px;
 }
