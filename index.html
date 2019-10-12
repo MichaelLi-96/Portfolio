@@ -5,6 +5,11 @@
 	    <meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/welcome.css" />
+		<link rel="stylesheet" href="assets/css/about.css" />
+		<link rel="stylesheet" href="assets/css/portfolio.css" />
+		<link rel="stylesheet" href="assets/css/skills.css" />
+		<link rel="stylesheet" href="assets/css/contact.css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script src="./assets/js/hideNavOnScroll.js"></script>
@@ -51,22 +56,24 @@
 					<p class="grey">I'm a software engineer based in San Francisco, CA with experience in full-stack<br /> development and
 					a strong foundation in data structures and algorithms.</p>
 					<div id="socials">
-						<a class="fa fa-linkedin-square welcomeIcon grey" href="https://www.linkedin.com/in/mikeli-96/" target="_blank" rel="nofollow noopener noreferrer"></a>
-						<a class="fa fa-github welcomeIcon grey" href="https://github.com/MichaelLi-96" target="_blank" rel="nofollow noopener noreferrer"></a>
-						<a class="fa fa-file welcomeIcon grey" href="./assets/resume/Li_Michael_Resume.pdf" target="_blank" rel="nofollow noopener noreferrer"></a>
+						<a class="fa fa-linkedin-square socialIcon grey" href="https://www.linkedin.com/in/mikeli-96/" target="_blank" rel="nofollow noopener noreferrer"></a>
+						<a class="fa fa-github socialIcon grey" href="https://github.com/MichaelLi-96" target="_blank" rel="nofollow noopener noreferrer"></a>
+						<a class="fa fa-file socialIcon grey" href="./assets/resume/Li_Michael_Resume.pdf" target="_blank" rel="nofollow noopener noreferrer"></a>
 					</div>
 				</div>
-				<a id="arrowContainer" class="row"  href="#about">
-					<div class="arrow"></div>
-					<div id="bottomArrow" class="arrow"></div>
-				</a>
+				<div class="row center">
+					<a id="arrowContainer" href="#about">
+						<div class="arrow"></div>
+						<div id="bottomArrow" class="arrow"></div>
+					</a>
+				</div>
 			</section>
 
 			<!-- About Me -->
 			<section id="about" class="container redBorder">
 				<div class="row">
 					<div class="col-md-6 col-12">
-						<header class="sectionHeader">
+						<header id="aboutHeader" class="sectionHeader">
 							<div class="sectionNum red">01.</div>
 							<h2>About Me</h2>
 						</header>
@@ -76,7 +83,7 @@
 						</p>
 					</div>
 					<div id="portfolioImageContainer" class="col-md-6 col-12">
-						<img src="./images/portfolio_image.jpg" alt="Portfolio Picture" id="portfolioImage">
+						<img src="./assets/images/portfolio_image.jpg" alt="Portfolio Picture" id="portfolioImage">
 					</div>
 				</div>
 			</section>
@@ -102,27 +109,104 @@
 						<h2>Skills</h2>
 					</header>
 				</div>
-				<div id="primarySkillsContainer" class="row">
-						<div class="singleSkillContainer">
-							<div class="primarySkillsDiamond">
-								<img src="./images/java.png" alt="Java" class="skillsImage">
-							</div>
-							<div class="skillName">Java</div>
-						</div>
+				<div class="row center">
+					<strong id="primary" class="red">Primary</strong>
+				</div>
+				<div id="skillsContainer" class="row">
+					<div class="singleSkillContainer">
 						<div class="primarySkillsDiamond">
-							<img src="./images/html.png" alt="Java" class="skillsImage">
+							<img src="./assets/images/html.png" alt="HTML5" class="primarySkillsImage">
 						</div>
+						<div class="primarySkillName">HTML5</div>
+					</div>
+					<div class="singleSkillContainer">
 						<div class="primarySkillsDiamond">
-							<img src="./images/css.png" alt="Java" class="skillsImage">
+							<img src="./assets/images/css.png" alt="CSS3" class="primarySkillsImage">
 						</div>
+						<div class="primarySkillName">CSS3</div>
+					</div>
+					<div class="singleSkillContainer">
+						<div class="primarySkillsDiamond">
+							<img src="./assets/images/java.png" alt="Java" class="primarySkillsImage">
+						</div>
+						<div class="primarySkillName">Java</div>
+					</div>
+					<div class="singleSkillContainer">
+						<div class="primarySkillsDiamond">
+							<img src="./assets/images/react.png" alt="React" class="primarySkillsImage">
+						</div>
+						<div class="primarySkillName">React</div>
+					</div>
+					<div class="singleSkillContainer">
+						<div class="primarySkillsDiamond">
+							<img src="./assets/images/git.png" alt="Git" class="primarySkillsImage">
+						</div>
+						<div class="primarySkillName">Git</div>
+					</div>
+					<div class="singleSkillContainer">
+						<div class="primarySkillsDiamond">
+							<img src="./assets/images/github.png" alt="Github" class="primarySkillsImage">
+						</div>
+						<div class="primarySkillName">Github</div>
+					</div>
+					<div class="singleSkillContainer">
+						<div class="primarySkillsDiamond">
+							<img src="./assets/images/mySql.png" alt="mySQL" class="primarySkillsImage">
+						</div>
+						<div class="primarySkillName">mySQL</div>
 					</div>
 				</div>
-				<div id="secondarySkillsContainer" class="row">
-					<div class="secondarySkillsCircle">
+				<div class="row center">
+					<strong id="secondary" class="grey">Secondary</strong>
+				</div>
+				<div id="skillsContainer" class="row">
+					<div class="singleSkillContainer">
+						<div class="secondarySkillsCircle">
+							<img src="./assets/images/rubyOnRails.png" alt="Ruby on Rails" class="secondarySkillsImage">
+						</div>
+						<div class="secondarySkillName">Ruby on Rails</div>
 					</div>
-					<div class="secondarySkillsCircle">
+					<div class="singleSkillContainer">
+						<div class="secondarySkillsCircle">
+							<img src="./assets/images/c++.png" alt="C++" class="secondarySkillsImage">
+						</div>
+						<div class="secondarySkillName">C++</div>
 					</div>
-					<div class="secondarySkillsCircle">
+					<div class="singleSkillContainer">
+						<div class="secondarySkillsCircle">
+							<img src="./assets/images/php.png" alt="PHP" class="secondarySkillsImage">
+						</div>
+						<div class="secondarySkillName">PHP</div>
+					</div>
+					<div class="singleSkillContainer">
+						<div class="secondarySkillsCircle">
+							<img src="./assets/images/javascript.png" alt="JavaScript" class="secondarySkillsImage">
+						</div>
+						<div class="secondarySkillName">JavaScript</div>
+					</div>
+					<div class="singleSkillContainer">
+						<div class="secondarySkillsCircle">
+							<img src="./assets/images/photoshop.png" alt="Photoshop" class="secondarySkillsImage">
+						</div>
+						<div class="secondarySkillName">Photoshop</div>
+					</div>
+					<div class="singleSkillContainer">
+						<div class="secondarySkillsCircle">
+							<img src="./assets/images/firebase.png" alt="Firebase" class="secondarySkillsImage">
+						</div>
+						<div class="secondarySkillName">Firebase</div>
+					</div>
+					<div class="singleSkillContainer">
+						<div class="secondarySkillsCircle">
+							<img src="./assets/images/mongoDB.png" alt="MongoDB" class="secondarySkillsImage">
+						</div>
+						<div class="secondarySkillName">MongoDB</div>
+					</div>
+					<div class="singleSkillContainer">
+						<div class="secondarySkillsCircle">
+							<img src="./assets/images/openFrameworks.png" alt="Open Frameworks" class="secondarySkillsImage">
+						</div>
+						<div class="secondarySkillName">Open Frameworks</div>
 					</div>
 				</div>
 			</section>
