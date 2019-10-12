@@ -13,6 +13,9 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script src="./assets/js/hideNavOnScroll.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	</head>
 	<body>	
 		<nav id="navbar" class="navbar fixed-top navbar-expand-lg">
@@ -24,20 +27,20 @@
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbarToggler">
-				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-					<li class="nav-item">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
 						<div class="navbarNum red">01.</div>
 						<a class="nav-link" href="#about">About</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
 						<div class="navbarNum red">02.</div>
 						<a class="nav-link" href="#portfolio">Portfolio</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
 						<div class="navbarNum red">03.</div>
 						<a class="nav-link" href="#skills">Skills</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
 						<div class="navbarNum red">04.</div>
 						<a class="nav-link" href="#contact">Contact</a>
 					</li>
@@ -45,11 +48,6 @@
 			</div>
 		</nav>
 
-		<!--<div id="socials">
-
-		</div> -->
-
-		<!-- Main -->
 		<div id="main">
 			<section id="welcome" class="container">
 				<div id="welcomeInfo" class="row">
@@ -259,10 +257,5 @@
 			<i class="fa fa-copyright red footerIcon">2019</i>
 			<div class="footerText red">Built by Michael Li</div>
 		</div>
-
-		<!-- Scripts -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	</body>
 </html>
