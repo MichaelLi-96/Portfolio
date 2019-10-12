@@ -33,9 +33,11 @@
 	font-size: 30px !important;
 	text-decoration: none !important;
 	margin-right: 30px;
+	transition: all 0.5s;
 }
 
-.welcomeIcon:hover {
+.socialIcon:hover {
+	transform: scale(1.25, 1.25);
 	color: #F50057;
 }
 

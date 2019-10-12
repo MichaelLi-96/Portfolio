@@ -16,9 +16,11 @@
 	</head>
 	<body>	
 		<nav id="navbar" class="navbar fixed-top navbar-expand-lg">
-			<a class="navbar-brand" href="#main">Michael Li</a>
+			<a class="navbar-brand" href="#main">
+				<img id="logo" src="./assets/images/logo.png" alt="Logo">
+			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
+				<i id="toggleIcon" class="fa fa-bars"></i>
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbarToggler">
@@ -208,6 +210,12 @@
 						</div>
 						<div class="secondarySkillName">Open Frameworks</div>
 					</div>
+					<div class="singleSkillContainer">
+						<div class="secondarySkillsCircle">
+							<img src="./assets/images/node.png" alt="NodeJS" class="secondarySkillsImage">
+						</div>
+						<div class="secondarySkillName">NodeJS</div>
+					</div>
 				</div>
 			</section>
 
@@ -223,23 +231,21 @@
 					<strong id="getInTouch" class="red">Get in Touch.</strong>
 				</div>
 				<div class="row center">
-					<form action="https://mailthis.to/michaelli.sw.eng@gmail.com"  method="POST" encType="multipart/form-data" autocomplete="off">
-						<div class="row">
-							<div class="col-6 center formDiv">
-								<input type="text" name="name" placeholder="Name" class="form"/>
-							</div>
-							<div class="col-6 center formDiv">
-								<input type="text" name="email" placeholder="Email"  class="form" />
-							</div>
-							<div class="col-12 center formDiv">
-								<input type="text" name="subject" placeholder="Subject"  class="form" />
-							</div>
-							<div class="col-12 center formDiv">
-								<textarea name="message" placeholder="Message" class="form"></textarea>
-							</div>
-							<div class="col-12 center formDiv">
-								<input type="submit" value="Send Message" id="sendBtn"/>
-							</div>
+					<form action="https://mailthis.to/michaelli.sw.eng@gmail.com"  method="POST" encType="multipart/form-data" autocomplete="off" class="row">
+						<div class="col-6 formDiv">
+							<input type="text" name="name" placeholder="Name" class="form"/>
+						</div>
+						<div class="col-6 formDiv">
+							<input type="text" name="email" placeholder="Email"  class="form" />
+						</div>
+						<div class="col-12 formDiv">
+							<input type="text" name="subject" placeholder="Subject"  class="form" />
+						</div>
+						<div class="col-12 formDiv">
+							<textarea name="message" placeholder="Message" class="form"></textarea>
+						</div>
+						<div class="col-12 center formDiv">
+							<input type="submit" value="Send Message" id="sendBtn"/>
 						</div>
 					    <input type="hidden" name="_honeypot" value="">
 					    <input type="hidden" name="_confirmation" value="Your message was successfully sent to Michael Li!">

@@ -92,6 +92,21 @@ p {
 	color: #F50057;
 }
 
+#logo {
+	width: 55px;
+	height: 55px;
+}
+
+#toggleIcon {
+	color: #F50057;
+	font-size: 30px;
+}
+
+.navbar-toggler:focus {
+	outline: none;
+	border: 1px solid #F50057 !important;
+}
+
 .sectionHeader {
 	display: flex;
 	flex-direction: row;
