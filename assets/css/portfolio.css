@@ -13,9 +13,15 @@
 	margin-bottom: 75px;
 }
 
-.projectImage {
+.horizontalProjectImage {
 	width: 100%;
 	height: auto;
+	border-radius: 20px;
+}
+
+.verticalProjectImage {
+	width: auto;
+	height: 750px;
 	border-radius: 20px;
 }
 
