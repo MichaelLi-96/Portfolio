@@ -51,8 +51,9 @@ textarea {
 	background-color: transparent;
 	border-radius: 10px;
 	color: #F50057;
-	height: 70px;
-	width: 160px;
+	height: auto;
+	width: auto;
+	padding: 20px 20px 20px 20px;
 	font-size: 20px;
 	border-width: 2px; 
 	border-style: solid;
