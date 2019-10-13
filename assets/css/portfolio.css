@@ -1,22 +1,22 @@
 #portfolio {
 	height: 100%;
-	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 }
 
-#portfolioHeader {
-	margin-bottom: 25px
+.projectContainer {
+	margin-top: 75px;
+	margin-bottom: 75px;
 }
 
 .projectImage {
 	width: 100%;
 	height: auto;
 	border-radius: 20px;
-	box-shadow: -1.25em 1.25em 0 0 #212226, -1.25em 1.25em 0 2px #F50057;
 }
 
 .projectDescription {
@@ -62,4 +62,10 @@
 	border-radius: 25px;
 	font-size: 18px;
 	margin: 10px 15px 10px 15px;
+}
+
+.separator {
+	height: 1px;
+	background-color: #F50057;
+	width: 75%;
 }

@@ -136,3 +136,11 @@ p {
 .fa-external-link {
 	font-size: 35px !important;
 }
+
+.leftShadow {
+	box-shadow: -1.25em 1.25em 0 0 #212226, -1.25em 1.25em 0 2px #F50057;
+}
+
+.rightShadow {
+	box-shadow: 1.25em 1.25em 0 0 #212226, 1.25em 1.25em 0 2px #F50057;
+}
