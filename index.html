@@ -13,6 +13,8 @@
 		<link rel="icon" href="assets/images/logo.png">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<link href="https://fonts.googleapis.com/css?family=PT+Mono|Varela&display=swap" rel="stylesheet">
 		<script src="./assets/js/hideNavOnScroll.js"></script>
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -30,20 +32,20 @@
 			<div class="collapse navbar-collapse" id="navbarToggler">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-						<div class="navbarNum red">01.</div>
-						<a class="nav-link" href="#about">About</a>
+						<div class="navbarNum red fontTwo">01.</div>
+						<a class="nav-link fontOne" href="#about">About</a>
 					</li>
 					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-						<div class="navbarNum red">02.</div>
-						<a class="nav-link" href="#portfolio">Portfolio</a>
+						<div class="navbarNum red fontTwo">02.</div>
+						<a class="nav-link fontOne" href="#portfolio">Portfolio</a>
 					</li>
 					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-						<div class="navbarNum red">03.</div>
-						<a class="nav-link" href="#skills">Skills</a>
+						<div class="navbarNum red fontTwo">03.</div>
+						<a class="nav-link fontOne" href="#skills">Skills</a>
 					</li>
 					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-						<div class="navbarNum red">04.</div>
-						<a class="nav-link" href="#contact">Contact</a>
+						<div class="navbarNum red fontTwo">04.</div>
+						<a class="nav-link fontOne" href="#contact">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -52,14 +54,14 @@
 		<div id="main">
 			<section id="welcome" class="container">
 				<div id="welcomeInfo" class="row">
-					<p id="hello" class="red">Hello, my name is</p>
-					<strong id="welcomeName">Michael Li.</strong>
-					<p class="grey">I'm a software engineer based in San Francisco, CA with experience in full-stack<br /> development and
-					a strong foundation in data structures and algorithms.</p>
+					<p class="red fontOne pNoMargin">Hello, my name is</p>
+					<strong id="welcomeName" class="fontOne">Michael Li.</strong>
+					<p id="welcomeDescription" class="grey fontOne">I'm a software engineer based in San Francisco, CA with experience in full-stack development and a strong foundation in data structures and algorithms.</p>
 					<div id="socials">
 						<a class="fa fa-linkedin-square socialIcon grey" href="https://www.linkedin.com/in/mikeli-96/" target="_blank" rel="nofollow noopener noreferrer"></a>
 						<a class="fa fa-github socialIcon grey" href="https://github.com/MichaelLi-96" target="_blank" rel="nofollow noopener noreferrer"></a>
 						<a class="fa fa-file socialIcon grey" href="./assets/resume/Li_Michael_Resume.pdf" target="_blank" rel="nofollow noopener noreferrer"></a>
+						<p class="grey fontOne pNoMargin">MichaelLi.sw.eng@gmail.com</p>
 					</div>
 				</div>
 				<div class="row center">
@@ -75,10 +77,10 @@
 				<div class="row">
 					<div class="col-md-6 col-12">
 						<header id="aboutHeader" class="sectionHeader">
-							<div class="sectionNum red">01.</div>
-							<h2>About Me</h2>
+							<div class="sectionNum red fontTwo">01.</div>
+							<h2 class="fontOne">About Me</h2>
 						</header>
-						<p class="grey">I am a recent graduate from San Jose State University with a B.S. in Software Engineering. Throughout my college career, I have gained valuable experience and technical skills. Some of these include web and mobile app development, data structures and algorithms, database management, user interface/experience, and computer security. I also have experience in agile software development with the ability to work well together with different teams. I am eager to learn new skills and technologies as well as build on top of my existing skill set.<br /> 
+						<p class="grey fontOne">I am a recent graduate from San Jose State University with a B.S. in Software Engineering. Throughout my college career, I have gained valuable experience and technical skills. Some of these include web and mobile app development, data structures and algorithms, database management, user interface/experience, and computer security. I also have experience in agile software development with the ability to work well together with different teams. I am eager to learn new skills and technologies as well as build on top of my existing skill set.<br /> 
 						<br /> 
 						I strive to improve myself as a better developer and person everyday. Through developing software, I am able to make my ideas a reality. That to me is one of the greatest feelings in world! 
 						</p>
@@ -93,8 +95,8 @@
 			<section id="portfolio" class="container redBorder">
 					<div class="row center">
 						<header class="sectionHeader">
-							<div class="sectionNum red">02.</div>
-							<h2>Portfolio</h2>
+							<div class="sectionNum red fontTwo">02.</div>
+							<h2 class="fontOne">Portfolio</h2>
 						</header>
 					</div>
 					<div class="projectContainer">
@@ -103,174 +105,255 @@
 						</div>
 						<div class="projectDescription">
 							<div class="row sides projectTitleContainer">
-								<strong class="projectTitle red">csBasics</strong>
+								<strong class="projectTitle red fontOne">csBasics</strong>
 								<div>
 									<a class="fa fa-github projectIcon grey" href="https://github.com/MichaelLi-96/CsBasics" target="_blank" rel="nofollow noopener noreferrer"></a>
 									<a class="fa fa-external-link projectIcon grey" href="https://csbasics.herokuapp.com" target="_blank" rel="nofollow noopener noreferrer"></a>
 								</div>
 							</div>
 							<div class="row center">
-								<p class="grey">
+								<p class="grey fontOne">
 									CsBasics is an application that teaches you the fundamental topics of computer science and java based programming. This website is meant to be a helpful online resource for new programmers as well as people who are looking to refresh their cs knowledge. This project has a built in <span class="red">sorting visualizer</span> that implements 6 different kinds of sorts.
 								</p>
 							</div>
 							<div class="row tagContainer">
-								<div class="tag grey">MongoDB</div>
-								<div class="tag grey">Express</div>
-								<div class="tag grey">React</div>
-								<div class="tag grey">Node.js</div>
-								<div class="tag grey">JavaScript</div>
-								<div class="tag grey">P5.js</div>
-								<div class="tag grey">HTML</div> 
-								<div class="tag grey">CSS</div> 
+								<div class="tag grey fontOne">MongoDB</div>
+								<div class="tag grey fontOne">Express</div>
+								<div class="tag grey fontOne">React</div>
+								<div class="tag grey fontOne">Node.js</div>
+								<div class="tag grey fontOne">JavaScript</div>
+								<div class="tag grey fontOne">P5.js</div>
+								<div class="tag grey fontOne">Heroku</div>
+								<div class="tag grey fontOne">HTML</div> 
+								<div class="tag grey fontOne">CSS</div> 
 							</div>
 						</div>
 					</div>
-					<div class="separator"></div>
 					<div class="projectContainer">
 						<div class="row center">
-							<img src="./assets/images/stickmanSurvival.png" alt="csBasics" class="verticalProjectImage rightShadow">
+							<img src="./assets/images/uniRooms.png" alt="UniRooms" class="verticalProjectImage rightShadow">
 						</div>
 						<div class="projectDescription">
 							<div class="row sides projectTitleContainer">
-								<strong class="projectTitle red">Stickman Survival</strong>
+								<strong class="projectTitle red fontOne">UniRooms</strong>
+								<div>
+									<a class="fa fa-github projectIcon grey" href="https://github.com/MichaelLi-96/UniRooms" target="_blank" rel="nofollow noopener noreferrer"></a>
+									<a class="fa fa-external-link projectIcon grey" href="https://www.youtube.com/watch?v=uMTYP66pMXc" target="_blank" rel="nofollow noopener noreferrer"></a>
+								</div>
+							</div>
+							<div class="row center">
+								<p class="grey fontOne">
+									A cross platform mobile application that helps university students find housing and roommates near their school campus. This application was a university senior project achieved by a team of four people. I had the role of designing the <span class="red">UI</span> and implementing the <span class="red">front-end</span>.
+								</p>
+							</div>
+							<div class="row tagContainer">
+								<div class="tag grey fontOne">React Native</div>
+								<div class="tag grey fontOne">Firebase</div>
+								<div class="tag grey fontOne">JavaScript</div>
+								<div class="tag grey fontOne">Node.js</div>
+								<div class="tag grey fontOne">HTML</div>
+								<div class="tag grey fontOne">CSS</div>
+							</div>
+						</div>
+					</div>
+					<div class="projectContainer">
+						<div class="row center">
+							<img src="./assets/images/MovieTicketReservationSystem.png" alt="Movie Ticket Reservation System" class="horizontalProjectImage leftShadow">
+						</div>
+						<div class="projectDescription">
+							<div class="row sides projectTitleContainer">
+								<strong class="projectTitle red fontOne">Movie Ticket Reservation System</strong>
+								<div>
+									<a class="fa fa-github projectIcon grey" href="https://github.com/MichaelLi-96/MovieTicketReservationSystem" target="_blank" rel="nofollow noopener noreferrer"></a>
+									<a class="fa fa-external-link projectIcon grey" href="https://docs.google.com/document/d/1NUotn_Z76CyVeWXR-q6Elx-o45pDg_iPs0Mn-PIEnwk/edit" target="_blank" rel="nofollow noopener noreferrer"></a>
+								</div>
+							</div>
+							<div class="row center">
+								<p class="grey fontOne">
+									A console-based movie ticket reservation application that incorporate database queries. Users and admins can call upon these database queries to create, read, update, and delete data from tables of the database. Some examples include seeing all currently playing movies, making a reservation for a specific movie showtime, and viewing the user's ticket purchase history. This application was the final project of the Introduction to Database Management Systems course and was achieved by a team of three people.
+								</p>
+							</div>
+							<div class="row tagContainer">
+								<div class="tag grey fontOne">Java</div>
+								<div class="tag grey fontOne">SQL</div>
+							</div>
+						</div>
+					</div>
+					<div class="projectContainer">
+						<div class="row center">
+							<img src="./assets/images/stickmanSurvival.png" alt="Stickman Survival" class="verticalProjectImage rightShadow">
+						</div>
+						<div class="projectDescription">
+							<div class="row sides projectTitleContainer">
+								<strong class="projectTitle red fontOne">Stickman Survival</strong>
 								<div>
 									<a class="fa fa-github projectIcon grey" href="https://github.com/MichaelLi-96/StickmanSurvival" target="_blank" rel="nofollow noopener noreferrer"></a>
 									<a class="fa fa-external-link projectIcon grey" href="https://www.youtube.com/watch?v=siKKqMPEzcs" target="_blank" rel="nofollow noopener noreferrer"></a>
 								</div>
 							</div>
 							<div class="row center">
-								<p class="grey">
-									A 2d survival shooter style game from scratch based on the theme of the “space invader” style games of the past. The game leveraged the object-oriented and graphics capabilities while applying the basics of game interaction, 2D game graphics using <span class="red">handmade</span> sprites, rudimentary collision detection, and basic animation.
+								<p class="grey fontOne">
+									A 2d survival shooter style game from scratch based on the theme of the “space invader” style games of the past. The game leveraged <span class="red">object-oriented</span> and graphics capabilities while applying the basics of game interaction, 2D game graphics using <span class="red">handmade</span> sprites, rudimentary collision detection, and basic animation.
 								</p>
 							</div>
 							<div class="row tagContainer">
-								<div class="tag grey">C++</div>
-								<div class="tag grey">Open Frameworks</div>
+								<div class="tag grey fontOne">C++</div>
+								<div class="tag grey fontOne">Open Frameworks</div>
 							</div>
 						</div>
 					</div>
-					<div class="separator"></div>
+					<div class="projectContainer">
+						<div class="row center">
+							<img src="./assets/images/cookbookOfGains.png" alt="Cookbook of Gains" class="horizontalProjectImage leftShadow">
+						</div>
+						<div class="projectDescription">
+							<div class="row sides projectTitleContainer">
+								<strong class="projectTitle red fontOne">Cookbook of Gains</strong>
+								<div>
+									<a class="fa fa-github projectIcon grey" href="https://github.com/MichaelLi-96/Cookbook-of-Gains" target="_blank" rel="nofollow noopener noreferrer"></a>
+									<a class="fa fa-external-link projectIcon grey" href="https://cookbook-of-gains.herokuapp.com/welcome/index" target="_blank" rel="nofollow noopener noreferrer"></a>
+								</div>
+							</div>
+							<div class="row center">
+								<p class="grey fontOne">
+									A web application that displays nutritious recipes to promote a healthy lifestyle in terms of eating. Each recipe contains a description, a list of needed ingredients, and instructions on how to make it. Users are able to create, read, update, and delete their recipes as well as like, dislike, and comment on other recipes. The application was developed using Model-View-Controller architecture.
+								</p>
+							</div>
+							<div class="row tagContainer">
+								<div class="tag grey fontOne">Ruby on Rails</div>
+								<div class="tag grey fontOne">SQL</div>
+								<div class="tag grey fontOne">Heroku</div>
+								<div class="tag grey fontOne">HTML</div>
+								<div class="tag grey fontOne">CSS</div>
+							</div>
+						</div>
+					</div>
 			</section>
 
 			<!-- Skills -->
 			<section id="skills" class="container redBorder">
 				<div id="skillsHeader" class="row">
 					<header class="sectionHeader">
-						<div class="sectionNum red">03.</div>
-						<h2>Skills</h2>
+						<div class="sectionNum red fontTwo">03.</div>
+						<h2 class="fontOne">Skills</h2>
 					</header>
 				</div>
 				<div class="row center">
-					<strong id="primary" class="red">Primary</strong>
+					<strong id="primary" class="red fontOne">Primary</strong>
 				</div>
 				<div id="skillsContainer" class="row">
 					<div class="singleSkillContainer">
 						<div class="primarySkillsDiamond">
 							<img src="./assets/images/html.png" alt="HTML5" class="primarySkillsImage">
 						</div>
-						<div class="primarySkillName">HTML5</div>
+						<div class="primarySkillName fontOne">HTML5</div>
 					</div>
 					<div class="singleSkillContainer">
 						<div class="primarySkillsDiamond">
 							<img src="./assets/images/css.png" alt="CSS3" class="primarySkillsImage">
 						</div>
-						<div class="primarySkillName">CSS3</div>
+						<div class="primarySkillName fontOne">CSS3</div>
 					</div>
 					<div class="singleSkillContainer">
 						<div class="primarySkillsDiamond">
 							<img src="./assets/images/java.png" alt="Java" class="primarySkillsImage">
 						</div>
-						<div class="primarySkillName">Java</div>
+						<div class="primarySkillName fontOne">Java</div>
 					</div>
 					<div class="singleSkillContainer">
 						<div class="primarySkillsDiamond">
 							<img src="./assets/images/react.png" alt="React" class="primarySkillsImage">
 						</div>
-						<div class="primarySkillName">React</div>
+						<div class="primarySkillName fontOne">React</div>
 					</div>
 					<div class="singleSkillContainer">
 						<div class="primarySkillsDiamond">
 							<img src="./assets/images/git.png" alt="Git" class="primarySkillsImage">
 						</div>
-						<div class="primarySkillName">Git</div>
+						<div class="primarySkillName fontOne">Git</div>
 					</div>
 					<div class="singleSkillContainer">
 						<div class="primarySkillsDiamond">
 							<img src="./assets/images/github.png" alt="Github" class="primarySkillsImage">
 						</div>
-						<div class="primarySkillName">Github</div>
+						<div class="primarySkillName fontOne">Github</div>
 					</div>
 					<div class="singleSkillContainer">
 						<div class="primarySkillsDiamond">
 							<img src="./assets/images/mySql.png" alt="mySQL" class="primarySkillsImage">
 						</div>
-						<div class="primarySkillName">mySQL</div>
+						<div class="primarySkillName fontOne">mySQL</div>
 					</div>
 				</div>
 				<div class="row center">
-					<strong id="secondary" class="grey">Secondary</strong>
+					<strong id="secondary" class="grey fontOne">Secondary</strong>
 				</div>
 				<div id="skillsContainer" class="row">
 					<div class="singleSkillContainer">
 						<div class="secondarySkillsCircle">
 							<img src="./assets/images/rubyOnRails.png" alt="Ruby on Rails" class="secondarySkillsImage">
 						</div>
-						<div class="secondarySkillName">Ruby on Rails</div>
+						<div class="secondarySkillName fontOne">Ruby on Rails</div>
 					</div>
 					<div class="singleSkillContainer">
 						<div class="secondarySkillsCircle">
 							<img src="./assets/images/c++.png" alt="C++" class="secondarySkillsImage">
 						</div>
-						<div class="secondarySkillName">C++</div>
+						<div class="secondarySkillName fontOne">C++</div>
 					</div>
 					<div class="singleSkillContainer">
 						<div class="secondarySkillsCircle">
 							<img src="./assets/images/php.png" alt="PHP" class="secondarySkillsImage">
 						</div>
-						<div class="secondarySkillName">PHP</div>
+						<div class="secondarySkillName fontOne">PHP</div>
 					</div>
 					<div class="singleSkillContainer">
 						<div class="secondarySkillsCircle">
 							<img src="./assets/images/javascript.png" alt="JavaScript" class="secondarySkillsImage">
 						</div>
-						<div class="secondarySkillName">JavaScript</div>
+						<div class="secondarySkillName fontOne">JavaScript</div>
 					</div>
 					<div class="singleSkillContainer">
 						<div class="secondarySkillsCircle">
 							<img src="./assets/images/photoshop.png" alt="Photoshop" class="secondarySkillsImage">
 						</div>
-						<div class="secondarySkillName">Photoshop</div>
+						<div class="secondarySkillName fontOne">Photoshop</div>
 					</div>
 					<div class="singleSkillContainer">
 						<div class="secondarySkillsCircle">
 							<img src="./assets/images/firebase.png" alt="Firebase" class="secondarySkillsImage">
 						</div>
-						<div class="secondarySkillName">Firebase</div>
+						<div class="secondarySkillName fontOne">Firebase</div>
 					</div>
 					<div class="singleSkillContainer">
 						<div class="secondarySkillsCircle">
 							<img src="./assets/images/mongoDB.png" alt="MongoDB" class="secondarySkillsImage">
 						</div>
-						<div class="secondarySkillName">MongoDB</div>
+						<div class="secondarySkillName fontOne">MongoDB</div>
 					</div>
 					<div class="singleSkillContainer">
 						<div class="secondarySkillsCircle">
 							<img src="./assets/images/openFrameworks.png" alt="Open Frameworks" class="secondarySkillsImage">
 						</div>
-						<div class="secondarySkillName">Open Frameworks</div>
+						<div class="secondarySkillName fontOne">Open Frameworks</div>
 					</div>
 					<div class="singleSkillContainer">
 						<div class="secondarySkillsCircle">
 							<img src="./assets/images/node.png" alt="NodeJS" class="secondarySkillsImage">
 						</div>
-						<div class="secondarySkillName">Node.js</div>
+						<div class="secondarySkillName fontOne">Node.js</div>
 					</div>
 					<div class="singleSkillContainer">
 						<div class="secondarySkillsCircle">
 							<img src="./assets/images/p5.png" alt="P5JS" class="secondarySkillsImage">
 						</div>
-						<div class="secondarySkillName">P5.js</div>
+						<div class="secondarySkillName fontOne">P5.js</div>
+					</div>
+					<div class="singleSkillContainer">
+						<div class="secondarySkillsCircle">
+							<img src="./assets/images/heroku.png" alt="P5JS" class="secondarySkillsImage">
+						</div>
+						<div class="secondarySkillName fontOne">Heroku</div>
 					</div>
 				</div>
 			</section>
@@ -279,29 +362,29 @@
 			<section id="contact" class="container redBorder">
 				<div class="row center">
 					<header class="sectionHeader">
-						<div class="sectionNum red">04.</div>
-						<h2>Contact</h2>
+						<div class="sectionNum red fontTwo">04.</div>
+						<h2 class="fontOne">Contact</h2>
 					</header>
 				</div>
 				<div class="row center">
-					<strong id="getInTouch" class="red">Get in Touch.</strong>
+					<strong id="getInTouch" class="red fontOne">Get in Touch.</strong>
 				</div>
 				<div class="row center">
 					<form action="https://mailthis.to/michaelli.sw.eng@gmail.com"  method="POST" encType="multipart/form-data" autocomplete="off" class="row">
 						<div class="col-6 formDiv">
-							<input type="text" name="name" placeholder="Name" class="form"/>
+							<input type="text" name="name" placeholder="Name" class="form fontOne"/>
 						</div>
 						<div class="col-6 formDiv">
-							<input type="text" name="email" placeholder="Email"  class="form" />
+							<input type="text" name="email" placeholder="Email"  class="form fontOne" />
 						</div>
 						<div class="col-12 formDiv">
-							<input type="text" name="subject" placeholder="Subject"  class="form" />
+							<input type="text" name="subject" placeholder="Subject"  class="form fontOne" />
 						</div>
 						<div class="col-12 formDiv">
-							<textarea name="message" placeholder="Message" class="form"></textarea>
+							<textarea name="message" placeholder="Message" class="form fontOne"></textarea>
 						</div>
 						<div class="col-12 center formDiv">
-							<input type="submit" value="Send Message" id="sendBtn"/>
+							<input type="submit" value="Send Message" id="sendBtn" class="fontOne" />
 						</div>
 					    <input type="hidden" name="_honeypot" value="">
 					    <input type="hidden" name="_confirmation" value="Your message was successfully sent to Michael Li!">
@@ -311,7 +394,7 @@
 		</div>
 
 
-		<div id="footer" class="center">
+		<div id="footer" class="center fontTwo">
 			<i class="fa fa-copyright red footerIcon">2019</i>
 			<div class="footerText red">Built by Michael Li</div>
 		</div>

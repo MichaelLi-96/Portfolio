@@ -1,5 +1,7 @@
 html {
 	scroll-behavior: smooth;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 body {
@@ -11,6 +13,18 @@ body {
 
 p {
 	font-size: 20px;
+}
+
+.pNoMargin {
+	margin-bottom: 0px;
+}
+
+.fontOne {
+	font-family: 'Varela', sans-serif;
+}
+
+.fontTwo {
+	font-family: 'PT Mono', monospace;
 }
 
 .red {
@@ -41,7 +55,7 @@ p {
 
 .redBorder {
 	border-top: solid;
-	border-width: 1px;
+	border-width: 3px;
 	border-color: #F50057;
 }
 
@@ -80,8 +94,8 @@ p {
 }
 
 .navbarNum {
-	font-size: 16px;
-	margin-top: 2px;
+	font-size: 18px;
+	margin-top: 5px;
 }
 
 .nav-link {
@@ -117,8 +131,8 @@ p {
 
 .sectionNum {
 	font-size: 30px;
-	margin-right: 20px;
-	padding-bottom: 7px;
+	margin-right: 10px;
+	padding-bottom: 4px;
 }
 
 .fa-linkedin-square {

@@ -12,12 +12,19 @@
 	flex-direction: column;
 }
 
-#hello {
-	margin-bottom: 0px;
-}
-
 #welcomeName {
 	font-size: 75px;
+	margin-bottom: 25px;
+}
+
+#welcomeStatement {
+	font-size: 75px;
+	margin-top: -25px;
+	margin-bottom: 25px;
+}
+
+#welcomeDescription {
+	width: 65%;
 }
 
 #socials {

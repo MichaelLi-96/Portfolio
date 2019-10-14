@@ -62,8 +62,8 @@ textarea {
 }
 
 #sendBtn:hover {
-	background-color: #F50057;
-	color: #212226;
+	background-color: rgb(245, 0, 87, 0.75);
+	color: white;
 }
 
 #sendBtn:focus {
