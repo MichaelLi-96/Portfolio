@@ -1,7 +1,5 @@
 html {
 	scroll-behavior: smooth;
-	padding-right: 15px;
-	padding-left: 15px;
 }
 
 body {
@@ -12,7 +10,7 @@ body {
 }
 
 p {
-	font-size: 20px;
+	font-size: 22px;
 }
 
 .pNoMargin {
@@ -20,7 +18,7 @@ p {
 }
 
 .fontOne {
-	font-family: 'Varela', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 .fontTwo {
@@ -75,16 +73,14 @@ p {
 	flex-direction: row;
 	justify-content: flex-end;
 	width: 100%;
+	margin-right: -20px;
 	background-color: #212226;
 }
 
 .navbar-brand {
-	color: #F50057;
-	font-size: 24px !important;
-}
-
-.navbar-brand:hover {
-	color: #F50057;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .nav-item {
@@ -157,4 +153,53 @@ p {
 
 .rightShadow {
 	box-shadow: 1.25em 1.25em 0 0 #212226, 1.25em 1.25em 0 2px #F50057;
+}
+
+@media (max-width: 960px) { 
+	html {
+		scroll-behavior: smooth;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+
+	p {
+		font-size: 20px;
+	}
+
+	.navbar {
+		height: 75px;
+		padding-left: 25px !important;
+		padding-right: 25px !important;
+		background-color: #212226;
+		-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+		-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+		box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+		transition: top 0.5s; /* Transition effect when sliding down (and up) */
+	}
+
+	.navbar-nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #212226;
+	}
+
+	.navbarNum {
+		font-size: 18px;
+		margin-top: 5px;
+		margin-right: 5px;
+	}
+
+	#logo {
+		width: 45px;
+		height: 45px;
+	}
+
+	.leftShadow {
+	box-shadow: -0.5em 0.5em 0 0 #212226, -0.5em 0.5em 0 2px #F50057;
+}
+
+	.rightShadow {
+		box-shadow: 0.5em 0.5em 0 0 #212226, 0.5em 0.5em 0 2px #F50057;
+	}
 }

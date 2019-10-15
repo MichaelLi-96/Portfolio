@@ -1,5 +1,4 @@
 #skills {
-	height: 100%;
 	padding-top: 100px;
 	padding-bottom: 125px;
 	display: flex;
@@ -141,4 +140,67 @@
 	font-size: 20px;
 	color: #CDCDCD;
 	text-align: center;
+}
+
+@media (max-width: 960px) { 
+	#skills {
+		padding-top: 75px;
+		padding-bottom: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#skillsHeader {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.singleSkillContainer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;	
+	}
+
+	#primary {
+		margin-top: 40px;
+		margin-bottom: 5px;
+		font-size: 40px;
+	}
+
+	.primarySkillsDiamond {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 90px;
+		width: 90px;
+		margin: 40px 30px 40px 30px;
+		border: solid;
+		border-color: #F50057;
+		border-width: 2px;
+		transform: rotate(45deg);
+	}
+
+	#secondary {
+		margin-top: 100px;
+		margin-bottom: 5px;
+		font-size: 40px;
+	}
+
+	.secondarySkillsCircle {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 90px;
+		width: 90px;
+		margin: 40px 30px 40px 30px;
+		border: solid;
+		border-color: #CDCDCD;
+		border-width: 2px;
+		border-radius: 65px;
+	}
 }
