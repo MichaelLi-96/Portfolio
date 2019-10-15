@@ -69,15 +69,32 @@ textarea {
 	outline: 0px;
 }
 
-#footer {
-	height: 75px;
-	background-color: #1A1B1E;
-}
-.footerIcon {
-	font-size: 20px !important;
-	margin-right: 8px;
-	margin-bottom: 2px;
-}
-.footerText {
-	font-size: 16px;
+@media (max-width: 960px) { 
+	#getInTouch {
+		font-size: 45px;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.form {
+		border-radius: 10px;
+		font-size: 16px;
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#sendBtn {
+		background-color: transparent;
+		border-radius: 10px;
+		color: #F50057;
+		height: auto;
+		width: auto;
+		padding: 15px 15px 15px 15px;
+		font-size: 18px;
+		border-width: 2px; 
+		border-style: solid;
+		border-color: #F50057;
+		transition: all 0.5s;
+	}
 }
