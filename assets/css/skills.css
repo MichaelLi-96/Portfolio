@@ -185,6 +185,20 @@
 		transform: rotate(45deg);
 	}
 
+	.primarySkillName {
+		border: solid;
+		border-width: 2px;
+		border-color: #F50057;
+		border-radius: 20px;
+		width: auto;
+		height: auto;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 16px;
+		color: #F50057;
+		text-align: center;
+	}
+
 	#secondary {
 		margin-top: 100px;
 		margin-bottom: 5px;
@@ -202,5 +216,19 @@
 		border-color: #CDCDCD;
 		border-width: 2px;
 		border-radius: 65px;
+	}
+
+	.secondarySkillName {
+		border: solid;
+		border-width: 2px;
+		border-color: #CDCDCD;
+		border-radius: 20px;
+		width: auto;
+		height: auto;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 16px;
+		color: #CDCDCD;
+		text-align: center;
 	}
 }
