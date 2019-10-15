@@ -14,6 +14,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Lato|PT+Mono&display=swap" rel="stylesheet">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<script src="./assets/js/hideNavOnScroll.js"></script>
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -72,7 +73,7 @@
 			</section>
 
 			<!-- About Me -->
-			<section id="about" class="container redBorder">
+			<section id="about" class="container" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
 				<div class="row">
 					<div class="col-md-6 col-12">
 						<header id="aboutHeader" class="sectionHeader">
@@ -91,14 +92,14 @@
 			</section>
 
 			<!-- Portfolio -->
-			<section id="portfolio" class="container redBorder">
+			<section id="portfolio" class="container" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
 					<div class="row center">
 						<header class="sectionHeader">
 							<div class="sectionNum red fontTwo">02.</div>
 							<h2 class="fontOne">Portfolio</h2>
 						</header>
 					</div>
-					<div class="projectContainer">
+					<div class="projectContainer" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
 						<div class="row center">
 							<img src="./assets/images/csBasics.png" alt="csBasics" class="horizontalProjectImageLeft leftShadow">
 						</div>
@@ -128,7 +129,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="projectContainer">
+					<div class="projectContainer" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
 						<div class="row center">
 							<img src="./assets/images/uniRooms.png" alt="UniRooms" class="verticalProjectImageRight rightShadow">
 						</div>
@@ -155,7 +156,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="projectContainer">
+					<div class="projectContainer" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
 						<div class="row center">
 							<img src="./assets/images/movieTicketReservationSystem.png" alt="Movie Ticket Reservation System" class="horizontalProjectImageLeft leftShadow">
 						</div>
@@ -169,7 +170,7 @@
 							</div>
 							<div class="row center">
 								<p class="grey fontOne">
-									A console-based movie ticket reservation application that incorporate database queries. Users and admins can call upon these database queries to create, read, update, and delete data from tables of the database. Some examples include seeing all currently playing movies, making a reservation for a specific movie showtime, and viewing the user's ticket purchase history. This application was the final project of the Introduction to Database Management Systems course and was achieved by a team of three people.
+									A console-based movie ticket reservation application that incorporate <span class="red">database queries</span>. Users and admins can call upon these database queries to create, read, update, and delete data from tables of the database. Some examples include seeing all currently playing movies, making a reservation for a specific movie showtime, and viewing the user's ticket purchase history. This application was the final project of the Introduction to Database Management Systems course and was achieved by a team of three people.
 								</p>
 							</div>
 							<div class="row tagContainer">
@@ -178,7 +179,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="projectContainer">
+					<div class="projectContainer" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
 						<div class="row center">
 							<img src="./assets/images/stickmanSurvival.png" alt="Stickman Survival" class="verticalProjectImageRight rightShadow">
 						</div>
@@ -192,7 +193,7 @@
 							</div>
 							<div class="row center">
 								<p class="grey fontOne">
-									A 2d survival shooter style game from scratch based on the theme of the “space invader” style games of the past. The game leveraged <span class="red">object-oriented</span> and graphics capabilities while applying the basics of game interaction, 2D game graphics using <span class="red">handmade</span> sprites, rudimentary collision detection, and basic animation.
+									A 2d survival shooter style game from scratch based on the theme of the “space invader” style games of the past. The game leveraged <span class="red">object-oriented</span> and 2D graphics capabilities while applying the basics of game interaction using handmade sprites, rudimentary collision detection, and basic animation.
 								</p>
 							</div>
 							<div class="row tagContainer">
@@ -201,7 +202,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="projectContainer">
+					<div class="projectContainer" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
 						<div class="row center">
 							<img src="./assets/images/cookbookOfGains.png" alt="Cookbook of Gains" class="horizontalProjectImageLeft leftShadow">
 						</div>
@@ -215,7 +216,7 @@
 							</div>
 							<div class="row center">
 								<p class="grey fontOne">
-									A web application that displays nutritious recipes to promote a healthy lifestyle in terms of eating. Each recipe contains a description, a list of needed ingredients, and instructions on how to make it. Users are able to create, read, update, and delete their recipes as well as like, dislike, and comment on other recipes. The application was developed using Model-View-Controller architecture.
+									A web application that displays nutritious recipes to promote a healthy lifestyle in terms of eating. Each recipe contains a description, a list of needed ingredients, and instructions on how to make it. Users are able to create, read, update, and delete their recipes as well as like, dislike, and comment on other recipes. The application was developed using <span class="red">Model-View-Controller</span> architecture.
 								</p>
 							</div>
 							<div class="row tagContainer">
@@ -230,135 +231,139 @@
 			</section>
 
 			<!-- Skills -->
-			<section id="skills" class="container redBorder">
-				<div id="skillsHeader" class="row">
+			<section id="skills" class="container">
+				<div id="skillsHeader" class="row" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
 					<header class="sectionHeader">
 						<div class="sectionNum red fontTwo">03.</div>
 						<h2 class="fontOne">Skills</h2>
 					</header>
 				</div>
-				<div class="row center">
-					<strong id="primary" class="red fontOne">Primary</strong>
+				<div data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
+					<div class="row center">
+						<strong id="primary" class="red fontOne">Primary</strong>
+					</div>
+					<div id="skillsContainer" class="row">
+						<div class="singleSkillContainer">
+							<div class="primarySkillsDiamond">
+								<img src="./assets/images/html.png" alt="HTML5" class="primarySkillsImage">
+							</div>
+							<div class="primarySkillName fontOne">HTML5</div>
+						</div>
+						<div class="singleSkillContainer">
+							<div class="primarySkillsDiamond">
+								<img src="./assets/images/css.png" alt="CSS3" class="primarySkillsImage">
+							</div>
+							<div class="primarySkillName fontOne">CSS3</div>
+						</div>
+						<div class="singleSkillContainer">
+							<div class="primarySkillsDiamond">
+								<img src="./assets/images/java.png" alt="Java" class="primarySkillsImage">
+							</div>
+							<div class="primarySkillName fontOne">Java</div>
+						</div>
+						<div class="singleSkillContainer">
+							<div class="primarySkillsDiamond">
+								<img src="./assets/images/react.png" alt="React" class="primarySkillsImage">
+							</div>
+							<div class="primarySkillName fontOne">React</div>
+						</div>
+						<div class="singleSkillContainer">
+							<div class="primarySkillsDiamond">
+								<img src="./assets/images/git.png" alt="Git" class="primarySkillsImage">
+							</div>
+							<div class="primarySkillName fontOne">Git</div>
+						</div>
+						<div class="singleSkillContainer">
+							<div class="primarySkillsDiamond">
+								<img src="./assets/images/github.png" alt="Github" class="primarySkillsImage">
+							</div>
+							<div class="primarySkillName fontOne">Github</div>
+						</div>
+						<div class="singleSkillContainer">
+							<div class="primarySkillsDiamond">
+								<img src="./assets/images/mySql.png" alt="mySQL" class="primarySkillsImage">
+							</div>
+							<div class="primarySkillName fontOne">mySQL</div>
+						</div>
+					</div>
 				</div>
-				<div id="skillsContainer" class="row">
-					<div class="singleSkillContainer">
-						<div class="primarySkillsDiamond">
-							<img src="./assets/images/html.png" alt="HTML5" class="primarySkillsImage">
-						</div>
-						<div class="primarySkillName fontOne">HTML5</div>
+				<div data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
+					<div class="row center">
+						<strong id="secondary" class="grey fontOne">Secondary</strong>
 					</div>
-					<div class="singleSkillContainer">
-						<div class="primarySkillsDiamond">
-							<img src="./assets/images/css.png" alt="CSS3" class="primarySkillsImage">
+					<div id="skillsContainer" class="row">
+						<div class="singleSkillContainer">
+							<div class="secondarySkillsCircle">
+								<img src="./assets/images/rubyOnRails.png" alt="Ruby on Rails" class="secondarySkillsImage">
+							</div>
+							<div class="secondarySkillName fontOne">Ruby on Rails</div>
 						</div>
-						<div class="primarySkillName fontOne">CSS3</div>
-					</div>
-					<div class="singleSkillContainer">
-						<div class="primarySkillsDiamond">
-							<img src="./assets/images/java.png" alt="Java" class="primarySkillsImage">
+						<div class="singleSkillContainer">
+							<div class="secondarySkillsCircle">
+								<img src="./assets/images/c++.png" alt="C++" class="secondarySkillsImage">
+							</div>
+							<div class="secondarySkillName fontOne">C++</div>
 						</div>
-						<div class="primarySkillName fontOne">Java</div>
-					</div>
-					<div class="singleSkillContainer">
-						<div class="primarySkillsDiamond">
-							<img src="./assets/images/react.png" alt="React" class="primarySkillsImage">
+						<div class="singleSkillContainer">
+							<div class="secondarySkillsCircle">
+								<img src="./assets/images/php.png" alt="PHP" class="secondarySkillsImage">
+							</div>
+							<div class="secondarySkillName fontOne">PHP</div>
 						</div>
-						<div class="primarySkillName fontOne">React</div>
-					</div>
-					<div class="singleSkillContainer">
-						<div class="primarySkillsDiamond">
-							<img src="./assets/images/git.png" alt="Git" class="primarySkillsImage">
+						<div class="singleSkillContainer">
+							<div class="secondarySkillsCircle">
+								<img src="./assets/images/javascript.png" alt="JavaScript" class="secondarySkillsImage">
+							</div>
+							<div class="secondarySkillName fontOne">JavaScript</div>
 						</div>
-						<div class="primarySkillName fontOne">Git</div>
-					</div>
-					<div class="singleSkillContainer">
-						<div class="primarySkillsDiamond">
-							<img src="./assets/images/github.png" alt="Github" class="primarySkillsImage">
+						<div class="singleSkillContainer">
+							<div class="secondarySkillsCircle">
+								<img src="./assets/images/photoshop.png" alt="Photoshop" class="secondarySkillsImage">
+							</div>
+							<div class="secondarySkillName fontOne">Photoshop</div>
 						</div>
-						<div class="primarySkillName fontOne">Github</div>
-					</div>
-					<div class="singleSkillContainer">
-						<div class="primarySkillsDiamond">
-							<img src="./assets/images/mySql.png" alt="mySQL" class="primarySkillsImage">
+						<div class="singleSkillContainer">
+							<div class="secondarySkillsCircle">
+								<img src="./assets/images/firebase.png" alt="Firebase" class="secondarySkillsImage">
+							</div>
+							<div class="secondarySkillName fontOne">Firebase</div>
 						</div>
-						<div class="primarySkillName fontOne">mySQL</div>
-					</div>
-				</div>
-				<div class="row center">
-					<strong id="secondary" class="grey fontOne">Secondary</strong>
-				</div>
-				<div id="skillsContainer" class="row">
-					<div class="singleSkillContainer">
-						<div class="secondarySkillsCircle">
-							<img src="./assets/images/rubyOnRails.png" alt="Ruby on Rails" class="secondarySkillsImage">
+						<div class="singleSkillContainer">
+							<div class="secondarySkillsCircle">
+								<img src="./assets/images/mongoDB.png" alt="MongoDB" class="secondarySkillsImage">
+							</div>
+							<div class="secondarySkillName fontOne">MongoDB</div>
 						</div>
-						<div class="secondarySkillName fontOne">Ruby on Rails</div>
-					</div>
-					<div class="singleSkillContainer">
-						<div class="secondarySkillsCircle">
-							<img src="./assets/images/c++.png" alt="C++" class="secondarySkillsImage">
+						<div class="singleSkillContainer">
+							<div class="secondarySkillsCircle">
+								<img src="./assets/images/openFrameworks.png" alt="Open Frameworks" class="secondarySkillsImage">
+							</div>
+							<div class="secondarySkillName fontOne">Open Frameworks</div>
 						</div>
-						<div class="secondarySkillName fontOne">C++</div>
-					</div>
-					<div class="singleSkillContainer">
-						<div class="secondarySkillsCircle">
-							<img src="./assets/images/php.png" alt="PHP" class="secondarySkillsImage">
+						<div class="singleSkillContainer">
+							<div class="secondarySkillsCircle">
+								<img src="./assets/images/node.png" alt="NodeJS" class="secondarySkillsImage">
+							</div>
+							<div class="secondarySkillName fontOne">Node.js</div>
 						</div>
-						<div class="secondarySkillName fontOne">PHP</div>
-					</div>
-					<div class="singleSkillContainer">
-						<div class="secondarySkillsCircle">
-							<img src="./assets/images/javascript.png" alt="JavaScript" class="secondarySkillsImage">
+						<div class="singleSkillContainer">
+							<div class="secondarySkillsCircle">
+								<img src="./assets/images/p5.png" alt="P5JS" class="secondarySkillsImage">
+							</div>
+							<div class="secondarySkillName fontOne">P5.js</div>
 						</div>
-						<div class="secondarySkillName fontOne">JavaScript</div>
-					</div>
-					<div class="singleSkillContainer">
-						<div class="secondarySkillsCircle">
-							<img src="./assets/images/photoshop.png" alt="Photoshop" class="secondarySkillsImage">
+						<div class="singleSkillContainer">
+							<div class="secondarySkillsCircle">
+								<img src="./assets/images/heroku.png" alt="P5JS" class="secondarySkillsImage">
+							</div>
+							<div class="secondarySkillName fontOne">Heroku</div>
 						</div>
-						<div class="secondarySkillName fontOne">Photoshop</div>
-					</div>
-					<div class="singleSkillContainer">
-						<div class="secondarySkillsCircle">
-							<img src="./assets/images/firebase.png" alt="Firebase" class="secondarySkillsImage">
-						</div>
-						<div class="secondarySkillName fontOne">Firebase</div>
-					</div>
-					<div class="singleSkillContainer">
-						<div class="secondarySkillsCircle">
-							<img src="./assets/images/mongoDB.png" alt="MongoDB" class="secondarySkillsImage">
-						</div>
-						<div class="secondarySkillName fontOne">MongoDB</div>
-					</div>
-					<div class="singleSkillContainer">
-						<div class="secondarySkillsCircle">
-							<img src="./assets/images/openFrameworks.png" alt="Open Frameworks" class="secondarySkillsImage">
-						</div>
-						<div class="secondarySkillName fontOne">Open Frameworks</div>
-					</div>
-					<div class="singleSkillContainer">
-						<div class="secondarySkillsCircle">
-							<img src="./assets/images/node.png" alt="NodeJS" class="secondarySkillsImage">
-						</div>
-						<div class="secondarySkillName fontOne">Node.js</div>
-					</div>
-					<div class="singleSkillContainer">
-						<div class="secondarySkillsCircle">
-							<img src="./assets/images/p5.png" alt="P5JS" class="secondarySkillsImage">
-						</div>
-						<div class="secondarySkillName fontOne">P5.js</div>
-					</div>
-					<div class="singleSkillContainer">
-						<div class="secondarySkillsCircle">
-							<img src="./assets/images/heroku.png" alt="P5JS" class="secondarySkillsImage">
-						</div>
-						<div class="secondarySkillName fontOne">Heroku</div>
 					</div>
 				</div>
 			</section>
 
 			<!-- Contact -->
-			<section id="contact" class="container redBorder">
+			<section id="contact" class="container" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
 				<div class="row center">
 					<header class="sectionHeader">
 						<div class="sectionNum red fontTwo">04.</div>
@@ -397,5 +402,8 @@
 			<i class="fa fa-copyright red footerIcon">2019</i>
 			<div class="footerText red">Built by Michael Li</div>
 		</div>
+
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>AOS.init();</script>
 	</body>
 </html>

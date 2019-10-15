@@ -58,10 +58,10 @@ p {
 }
 
 .navbar {
-	height: 75px;
 	padding-left: 50px !important;
 	padding-right: 50px !important;
 	background-color: #212226;
+	width: 100%;
 	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
 	-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
 	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
@@ -73,7 +73,6 @@ p {
 	flex-direction: row;
 	justify-content: flex-end;
 	width: 100%;
-	margin-right: -20px;
 	background-color: #212226;
 }
 
@@ -170,7 +169,7 @@ p {
 }
 
 
-@media (max-width: 960px) { 
+@media (max-width: 991px) { 
 	html {
 		scroll-behavior: smooth;
 	}
@@ -186,10 +185,10 @@ p {
 	}
 
 	.navbar {
-		height: 75px;
-		padding-left: 25px !important;
-		padding-right: 25px !important;
+		padding-left: 50px !important;
+		padding-right: 50px !important;
 		background-color: #212226;
+		width: 100%;
 		-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
 		-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
 		box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
@@ -199,9 +198,10 @@ p {
 	.navbar-nav {
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
 		align-items: center;
+		width: 100%;
 		background-color: #212226;
-		margin-top: 0;
 	}
 
 	.navbarNum {
