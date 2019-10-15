@@ -30,3 +30,5 @@
 | White          | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff` |
 | Grey           | ![#CDCDCD](https://via.placeholder.com/10/CDCDCD?text=+) `#CDCDCD` |
 
+## Design Reference
+Special thanks to [Brittany Chiang](https://github.com/bchiang7) and her [portfolio website](https://brittanychiang.com/) that I used as a design reference while building my site.
