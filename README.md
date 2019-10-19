@@ -26,6 +26,7 @@
 | Color          | Hex                                                                |
 | -------------- | ------------------------------------------------------------------ |
 | Black          | ![#212226](https://via.placeholder.com/10/212226?text=+) `#212226` |
+| Darker Black   | ![#1A1B1E](https://via.placeholder.com/10/1A1B1E?text=+) `#1A1B1E` |
 | Pink           | ![#F50057](https://via.placeholder.com/10/F50057?text=+) `#F50057` |
 | White          | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff` |
 | Grey           | ![#CDCDCD](https://via.placeholder.com/10/CDCDCD?text=+) `#CDCDCD` |
