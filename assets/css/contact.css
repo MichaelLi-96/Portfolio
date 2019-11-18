@@ -1,10 +1,11 @@
 #contact {
-	padding-top: 75px;
-	padding-bottom: 100px;
+	padding-top: 125px;
+	padding-bottom: 125px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	width: 60%;
 }
 
 #getInTouch {
@@ -69,7 +70,7 @@ textarea {
 	outline: 0px;
 }
 
-@media (max-width: 991px) { 
+@media (max-width: 768px) { 
 	#contact {
 		padding-top: 100px;
 		padding-bottom: 100px;
@@ -77,6 +78,9 @@ textarea {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		width: 100%;
+		padding-left: 35px;
+		padding-right: 35px;
 	}
 
 	#getInTouch {

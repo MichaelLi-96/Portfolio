@@ -33,6 +33,14 @@ p {
 	color: #CDCDCD;
 }
 
+.black {
+	color: #212226;
+}
+
+.white {
+	color: #ffffff; 
+}
+
 .center {
 	display: flex;
 	justify-content: center;
@@ -43,6 +51,12 @@ p {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.row {
+	width: 100%;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
 }
 
 .container {
@@ -138,19 +152,19 @@ p {
 }
 
 .fa-linkedin-square {
-	font-size: 30px !important;
+	font-size: 40px !important;
 }
 
 .fa-github{
-	font-size: 37px !important;
+	font-size: 47px !important;
 }
 
 .fa-file {
-	font-size: 30px !important;
+	font-size: 40px !important;
 }
 
 .fa-external-link {
-	font-size: 35px !important;
+	font-size: 45px !important;
 }
 
 .leftShadow {
@@ -171,11 +185,12 @@ p {
 	margin-right: 8px;
 	margin-bottom: 2px;
 }
+
 .footerText {
 	font-size: 12px;
 }
 
-@media (max-width: 991px) { 
+@media (max-width: 768px) { 
 	html {
 		scroll-behavior: smooth;
 	}
@@ -183,11 +198,6 @@ p {
 	p {
 		font-size: 16px;
 		text-align: center;
-	}
-
-	#main {
-		padding-right: 25px;
-		padding-left: 25px;
 	}
 
 	.navbar {
@@ -237,4 +247,22 @@ p {
 	.footerText {
 		font-size: 10px;
 	}
+
+
+	.fa-linkedin-square {
+		font-size: 30px !important;
+	}
+
+	.fa-github{
+		font-size: 37px !important;
+	}
+
+	.fa-file {
+		font-size: 30px !important;
+	}
+
+	.fa-external-link {
+		font-size: 35px !important;
+	}
+
 }

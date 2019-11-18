@@ -1,6 +1,5 @@
 #portfolio {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 150px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -10,43 +9,68 @@
 .projectContainer {
 	margin-top: 75px;
 	margin-bottom: 75px;
+	padding-left: 150px;
+	padding-right: 150px;
+	display: flex;
+	flex-direction: row;
 }
 
-.horizontalProjectImageLeft, .horizontalProjectImageRight {
+.horizontalProjectImageContainer {
+	display: flex;
+	justify-content: space-around;
+}
+
+.verticalProjectImageContainer {
+	padding-left: 100px !important;
+	display: flex;
+	justify-content: space-around;
+}
+
+.horizontalProjectImage {
 	width: 100%;
 	height: auto;
 	border-radius: 20px;
-	transition: all 1s;
 }
 
-.verticalProjectImageLeft, .verticalProjectImageRight {
-	width: 50%;
+.verticalProjectImage{
+	width: 40%;
 	height: auto;
 	border-radius: 20px;
-	transition: all 1s;
 }
 
-.horizontalProjectImageLeft:hover, .verticalProjectImageLeft:hover {
-	-webkit-box-shadow: 0px 0px 30px 2px #F50057;
-	-moz-box-shadow: 0px 0px 30px 2px #F50057;
-	box-shadow: 0px 0px 30px 2px #F50057;
-	transform: translate(5px, -5px);
+.projectDescriptionLeft {
+	padding-left: 100px !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
-.verticalProjectImageRight:hover, .horizontalProjectImageRight:hover {
-	-webkit-box-shadow: 0px 0px 30px 2px #F50057;
-	-moz-box-shadow: 0px 0px 30px 2px #F50057;
-	box-shadow: 0px 0px 30px 2px #F50057;
-	transform: translate(-5px, -5px);
+.projectDescriptionRight {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .projectTitleContainer {
-	margin-top: 35px;
-	margin-bottom: 15px;
+	margin-bottom: 35px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	border-bottom: solid;
+	border-color: #F50057;
+	padding-bottom: 5px;
 }
 
 .projectTitle {
-	font-size: 50px;
+	font-size: 65px;
+	margin-right: 10px;
+}
+
+.portfolioLinks {
+	padding-top: 15px; 
 }
 
 .projectIcon {
@@ -80,10 +104,9 @@
 	margin: 10px 15px 10px 15px;
 }
 
-@media (max-width: 991px) { 
+@media (max-width: 768px) { 
 	#portfolio {
 		padding-top: 100px;
-		padding-bottom: 100px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -91,45 +114,71 @@
 	}
 
 	.projectContainer {
-		margin-top: 50px;
-		margin-bottom: 50px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		display: flex;
+		flex-direction: row;
+		border: solid;
+		border-radius: 25px;
+		border-color: #F50057;
 	}
 
-	.horizontalProjectImageLeft, .horizontalProjectImageRight {
-		width: 80%;
-		height: auto;
-		border-radius: 20px;
-		transition: all 1s;
+	.horizontalProjectImageContainer {
+		display: flex;
+		justify-content: space-around;
+		margin-bottom: 20px;
 	}
 
-	.verticalProjectImageLeft, .verticalProjectImageRight {
-		width: 65%;
+	.verticalProjectImageContainer {
+		padding-left: 0px !important;
+		display: flex;
+		justify-content: space-around;
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+
+	.horizontalProjectImage {
+		width: 100%;
 		height: auto;
 		border-radius: 20px;
-		transition: all 1s;
+	}
+
+	.verticalProjectImage{
+		width: 40%;
+		height: auto;
+		border-radius: 20px;
+	}
+
+	.projectDescriptionLeft {
+		padding-left: 0px !important;
 	}
 
 	.projectTitleContainer {
-		margin-top: 35px;
-		margin-bottom: 15px;
+		margin-bottom: 20px;
 		display: flex;
-		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		border-bottom: solid;
+		border-color: #F50057;
+		padding-bottom: 5px;
 	}
 
 	.projectTitle {
-		font-size: 30px;
-		text-align: center;
+		font-size: 40px;
 	}
 
 	.portfolioLinks {
-		margin-top: 10px;
+		padding-top: 10px; 
 	}
 
 	.projectIcon {
 		text-decoration: none !important;
 		margin-left: 10px;
 		margin-right: 10px;
-		font-size: 30px !important;
 		transition: all 0.35s;
 	}
 
@@ -138,15 +187,23 @@
 		color: #F50057;
 	}
 
+	.tagContainer {
+		display: flex;
+		justify-content: center;
+		align-items: center; 
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+
 	.tag {
 		background-color: transparent;
 		border: solid;
 		border-width: 2px;
 		width: auto;
 		height: auto;
-		padding: 5px 10px 5px 10px;
+		padding: 5px 15px 5px 15px;
 		border-radius: 25px;
-		font-size: 14px;
-		margin: 10px;
+		font-size: 16px;
+		margin: 10px 15px 10px 15px;
 	}
 }

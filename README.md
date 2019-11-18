@@ -14,7 +14,6 @@
 
 ## Libraries Used
 * [Bootstrap](https://getbootstrap.com/) (Navbar, grid)
-* [AOS](http://michalsnik.github.io/aos/) (Fade-In on scroll)
 * [Font Awesome](https://fontawesome.com/) (Icons)
 
 ## Fonts Used
