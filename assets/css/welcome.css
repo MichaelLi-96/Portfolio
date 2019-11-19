@@ -60,7 +60,7 @@
 }
 
 #email {
-	font-size: 26px;
+	font-size: 28px;
 }
 
 #arrowContainer {
@@ -99,7 +99,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		height: 525px;
+		height: 625px;
 		padding-left: 30px;
 		padding-right: 30px;
 	}
@@ -107,7 +107,7 @@
 	#welcomeBackgroundImage {
 		margin-top: 75px;
 		width: 100%;
-		height: 450px;
+		height: 550px;
 		overflow: hidden;
 		z-index: -1;
 		filter: brightness(40%);
@@ -125,7 +125,7 @@
 	}
 
 	#welcomeName {
-		font-size: 50px;
+		font-size: 48px;
 		margin-bottom: 30px;
 		border: solid;
 		border-width: 4px;
@@ -135,7 +135,7 @@
 	#welcomeDescription {
 		text-align: center;
 		font-size: 14px;
-		width: 90%;
+		width: 100%;
 	}
 
 	#socials {
@@ -197,3 +197,8 @@
 	}
 }
 
+@media (max-width: 450px) {
+	#email {
+		padding-top: 5px;
+	}
+}
