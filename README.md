@@ -5,7 +5,7 @@
   Michael Li's Portfolio Website
 </h1>
 <p align="center">
-  A portfolio website built with HTML, CSS, and a some libraries. Hosted on GitHub.
+  A portfolio website built with HTML, CSS, and some libraries. Hosted on GitHub.
 </p>
 <p align="center">
   View the site <a href="https://michaelli-96.github.io/Portfolio/" target="_blank" rel="nofollow noopener noreferrer">here</a>.
