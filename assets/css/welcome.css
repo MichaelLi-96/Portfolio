@@ -2,13 +2,13 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 1075px;
+	height: 975px;
 }
 
 #welcomeBackgroundImage {
 	margin-top: 75px;
 	width: 100%;
-	height: 1000px;
+	height: 900px;
 	overflow: hidden;
 	z-index: -1;
 	filter: brightness(40%);
@@ -22,11 +22,11 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-top: -100px;
+	margin-top: -175px;
 }
 
 #welcomeName {
-	font-size: 175px;
+	font-size: 125px;
 	margin-bottom: 50px;
 	border: solid;
 	border-width: 7px;
@@ -35,7 +35,8 @@
 
 #welcomeDescription {
 	text-align: center;
-	font-size: 30px;
+	font-size: 24px;
+	width: 75%;
 }
 
 #socials {
@@ -59,7 +60,7 @@
 }
 
 #email {
-	font-size: 30px;
+	font-size: 26px;
 }
 
 #arrowContainer {
@@ -67,7 +68,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin-top: 125px;
+	margin-top: 150px;
 	transition: all 0.5s;
 	position: absolute;
 }
@@ -77,28 +78,28 @@
 }
 
 .arrow {
-	height: 80px;
-	width: 80px;
+	height: 100px;
+	width: 100px;
 	border: solid;
 	border-color: #F50057;
-	border-width: 3px;
+	border-width: 4px;
 	border-top: none;
 	border-left: none;
 	transform: rotate(45deg);
 }
 
 #bottomArrow {
-	height: 100px;
-	width: 100px;
-	margin-top: -85px;
+	height: 120px;
+	width: 120px;
+	margin-top: -100px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
 	#welcome {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		height: 650px;
+		height: 525px;
 		padding-left: 30px;
 		padding-right: 30px;
 	}
@@ -106,7 +107,7 @@
 	#welcomeBackgroundImage {
 		margin-top: 75px;
 		width: 100%;
-		height: 550px;
+		height: 450px;
 		overflow: hidden;
 		z-index: -1;
 		filter: brightness(40%);
@@ -120,20 +121,21 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: -75px;
+		margin-top: -50px;
 	}
 
 	#welcomeName {
-		font-size: 70px;
+		font-size: 50px;
 		margin-bottom: 30px;
 		border: solid;
-		border-width: 7px;
+		border-width: 4px;
 		border-color: #F50057;
 	}
 
 	#welcomeDescription {
 		text-align: center;
-		font-size: 18px;
+		font-size: 14px;
+		width: 90%;
 	}
 
 	#socials {
@@ -147,7 +149,8 @@
 
 	.socialIcon {
 		text-decoration: none !important;
-		margin-right: 30px;
+		margin-left: 15px;
+		margin-right: 15px;
 		transition: all 0.35s;
 	}
 
@@ -157,7 +160,9 @@
 	}
 
 	#email {
-		font-size: 22px;
+		font-size: 16px;
+		margin-left: 15px;
+		margin-right: 15px;
 	}
 
 	#arrowContainer {
@@ -175,8 +180,8 @@
 	}
 
 	.arrow {
-		height: 80px;
-		width: 80px;
+		height: 60px;
+		width: 60px;
 		border: solid;
 		border-color: #F50057;
 		border-width: 3px;
@@ -186,9 +191,9 @@
 	}
 
 	#bottomArrow {
-		height: 100px;
-		width: 100px;
-		margin-top: -85px;
+		height: 80px;
+		width: 80px;
+		margin-top: -65px;
 	}
 }
 

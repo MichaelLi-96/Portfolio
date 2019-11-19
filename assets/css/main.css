@@ -79,7 +79,6 @@ p {
 	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
 	-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
 	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
-	transition: top 0.5s; /* Transition effect when sliding down (and up) */
 }
 
 .navbar-nav {
@@ -103,7 +102,7 @@ p {
 }
 
 .navbarNum {
-	font-size: 18px;
+	font-size: 20px;
 	margin-top: 5px;
 }
 
@@ -152,27 +151,19 @@ p {
 }
 
 .fa-linkedin-square {
-	font-size: 40px !important;
+	font-size: 30px !important;
 }
 
 .fa-github{
-	font-size: 47px !important;
+	font-size: 37px !important;
 }
 
 .fa-file {
-	font-size: 40px !important;
+	font-size: 30px !important;
 }
 
 .fa-external-link {
-	font-size: 45px !important;
-}
-
-.leftShadow {
-	box-shadow: -1.25em 1.25em 0 0 #212226, -1.25em 1.25em 0 2px #F50057;
-}
-
-.rightShadow {
-	box-shadow: 1.25em 1.25em 0 0 #212226, 1.25em 1.25em 0 2px #F50057;
+	font-size: 35px !important;
 }
 
 #footer {
@@ -188,6 +179,11 @@ p {
 
 .footerText {
 	font-size: 12px;
+}
+
+.col-md-6 {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
 }
 
 @media (max-width: 768px) { 
@@ -207,8 +203,7 @@ p {
 		width: 100%;
 		-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
 		-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
-		box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
-		transition: top 0.5s; /* Transition effect when sliding down (and up) */
+		box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);/
 	}
 
 	.navbar-nav {
@@ -231,38 +226,30 @@ p {
 		height: 45px;
 	}
 
-	.leftShadow {
-		box-shadow: -0.5em 0.5em 0 0 #212226, -0.5em 0.5em 0 2px #F50057;
-	}
-
-	.rightShadow {
-		box-shadow: 0.5em 0.5em 0 0 #212226, 0.5em 0.5em 0 2px #F50057;
-	}
-
 	.footerIcon {
 		font-size: 12px !important;
 		margin-right: 8px;
 		margin-bottom: 2px;
 	}
+
 	.footerText {
 		font-size: 10px;
 	}
 
-
 	.fa-linkedin-square {
-		font-size: 30px !important;
+		font-size: 20px !important;
 	}
 
 	.fa-github{
-		font-size: 37px !important;
+		font-size: 27px !important;
 	}
 
 	.fa-file {
-		font-size: 30px !important;
+		font-size: 20px !important;
 	}
 
 	.fa-external-link {
-		font-size: 35px !important;
+		font-size: 25px !important;
 	}
 
 }

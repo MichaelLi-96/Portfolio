@@ -5,7 +5,11 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	width: 75%;
+	width: 85%;
+}
+
+#skillsTitle {
+	padding-left: 50px;
 }
 
 #skillsHeader {
@@ -150,9 +154,13 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		padding-left: 30px;
-		padding-right: 30px;
+		padding-left: 15px;
+		padding-right: 15px;
 		width: 100%;
+	}
+
+	#skillsTitle {
+		padding-left: 0px !important;
 	}
 
 	#skillsHeader {
@@ -161,7 +169,6 @@
 		flex-direction: row;
 		justify-content: flex-start;
 		align-items: center;
-		padding-left: 15px;
 	}
 
 	.singleSkillContainer {

@@ -65,7 +65,7 @@
 }
 
 .projectTitle {
-	font-size: 65px;
+	font-size: 58px;
 	margin-right: 10px;
 }
 
@@ -116,10 +116,10 @@
 	.projectContainer {
 		margin-top: 25px;
 		margin-bottom: 25px;
-		padding-left: 30px;
-		padding-right: 30px;
-		padding-top: 25px;
-		padding-bottom: 25px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 20px;
+		padding-bottom: 20px;
 		display: flex;
 		flex-direction: row;
 		border: solid;
@@ -169,6 +169,7 @@
 
 	.projectTitle {
 		font-size: 40px;
+		text-align: center;
 	}
 
 	.portfolioLinks {
@@ -203,7 +204,7 @@
 		height: auto;
 		padding: 5px 15px 5px 15px;
 		border-radius: 25px;
-		font-size: 16px;
+		font-size: 14px;
 		margin: 10px 15px 10px 15px;
 	}
 }
