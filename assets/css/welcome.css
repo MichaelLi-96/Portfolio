@@ -2,7 +2,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 1000px;
+	height: 1075px;
 }
 
 #welcomeBackgroundImage {
@@ -22,6 +22,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-top: -100px;
 }
 
 #welcomeName {

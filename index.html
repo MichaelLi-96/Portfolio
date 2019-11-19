@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Lato|PT+Mono&display=swap" rel="stylesheet">
-		<!-- <script src="./assets/js/hideNavOnScroll.js"></script> -->
+		  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -50,19 +50,24 @@
 			</div>
 		</nav>
 
+		<!-- Welcome -->
 		<section id="welcome" class="container">
 			<img src="./assets/images/welcome.jpg" alt="Welcome Background Image" id="welcomeBackgroundImage">
 			<div id="welcomeInfo" class="row">
-				<strong id="welcomeName" class="white fontOne">&nbspMICHAEL LI&nbsp</strong>
-				<div id="welcomeDescription" class="white fontOne">I'm a software engineer based in San Francisco, CA with experience in full-stack development and a strong foundation in data structures and algorithms.</div>
-				<div id="socials">
+				<strong id="welcomeName" class="white fontOne" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" data-aos-delay="250">
+					&nbspMICHAEL LI&nbsp
+				</strong>
+				<div id="welcomeDescription" class="white fontOne" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-delay="900">
+					I'm a software engineer based in San Francisco, CA with experience in full-stack development and a strong foundation in data structures and algorithms.
+				</div>
+				<div id="socials" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" data-aos-delay="1650">
 					<a class="fa fa-linkedin-square socialIcon white" href="https://www.linkedin.com/in/mikeli-96/" target="_blank" rel="nofollow noopener noreferrer"></a>
 					<a class="fa fa-github socialIcon white" href="https://github.com/MichaelLi-96" target="_blank" rel="nofollow noopener noreferrer"></a>
 					<a class="fa fa-file socialIcon white" href="./assets/resume/Michael_Li_Resume.pdf" target="_blank" rel="nofollow noopener noreferrer"></a>
 					<div class="white fontOne" id="email">MichaelLi.sw.eng@gmail.com</div>
 				</div>
 			</div>
-			<div class="row center">
+			<div class="row center" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-delay="2400">
 				<a id="arrowContainer" href="#about">
 					<div class="arrow"></div>
 					<div id="bottomArrow" class="arrow"></div>
@@ -72,7 +77,7 @@
 
 		<!-- About Me -->
 		<section id="about" class="container">
-			<div class="row">
+			<div class="row" data-aos="fade-up" data-aos-duration="1250" data-aos-once="true">
 				<div class="col-md-6 col-12">
 					<header id="aboutHeader" class="sectionHeader">
 						<div class="sectionNum pink fontTwo">01.</div>
@@ -91,14 +96,14 @@
 
 		<!-- Portfolio -->
 		<section id="portfolio" class="container-fluid">
-			<div class="row center">
+			<div class="row center" data-aos="fade-up" data-aos-duration="1250" data-aos-once="true">
 				<header class="sectionHeader">
 					<div class="sectionNum pink fontTwo">02.</div>
 					<h2 class="fontOne">Portfolio</h2>
 				</header>
 			</div>
 
-			<div class="projectContainer row">
+			<div class="projectContainer row" data-aos="fade-up" data-aos-duration="1250" data-aos-once="true">
 				<div class="horizontalProjectImageContainer col-md-6 col-12">
 					<img src="./assets/images/csBasics.png" alt="csBasics" class="horizontalProjectImage">
 				</div>
@@ -129,7 +134,7 @@
 				</div>
 			</div>
 
-			<div class="projectContainer row">
+			<div class="projectContainer row" data-aos="fade-up" data-aos-duration="1250" data-aos-once="true">
 				<div class="projectDescriptionRight col-md-6 col-12">
 					<div class="row projectTitleContainer">
 						<strong class="projectTitle pink fontOne">UniRooms</strong>
@@ -158,7 +163,7 @@
 				</div>
 			</div>
 
-			<div class="projectContainer row">
+			<div class="projectContainer row" data-aos="fade-up" data-aos-duration="1250" data-aos-once="true">
 				<div class="horizontalProjectImageContainer col-md-6 col-12">
 					<img src="./assets/images/movieTicketReservationSystem.png" alt="Movie Ticket Reservation System" class="horizontalProjectImage">
 				</div>
@@ -181,7 +186,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="projectContainer row">
+
+			<div class="projectContainer row" data-aos="fade-up" data-aos-duration="1250" data-aos-once="true">
 				<div class="projectDescriptionRight col-md-6 col-12">
 					<div class="row projectTitleContainer">
 						<strong class="projectTitle pink fontOne">Stickman Survival</strong>
@@ -206,7 +212,7 @@
 				</div>
 			</div>
 
-			<div class="projectContainer row">
+			<div class="projectContainer row" data-aos="fade-up" data-aos-duration="1250" data-aos-once="true">
 				<div class="horizontalProjectImageContainer col-md-6 col-12">
 					<img src="./assets/images/cookbookOfGains.png" alt="Cookbook of Gains" class="horizontalProjectImage">
 				</div>
@@ -236,13 +242,14 @@
 
 		<!-- Skills -->
 		<section id="skills" class="container-fluid">
-			<div id="skillsHeader" class="row">
+			<div id="skillsHeader" class="row" data-aos="fade-up" data-aos-duration="1250" data-aos-once="true">
 				<header class="sectionHeader">
 					<div class="sectionNum pink fontTwo">03.</div>
 					<h2 class="fontOne">Skills</h2>
 				</header>
 			</div>
-			<div class="row">
+
+			<div class="row" data-aos="fade-up" data-aos-duration="1250" data-aos-once="true">
 				<div class="row center">
 					<strong id="primary" class="pink fontOne">Primary</strong>
 				</div>
@@ -291,7 +298,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
+
+			<div class="row" data-aos="fade-up" data-aos-duration="1250" data-aos-once="true">
 				<div class="row center">
 					<strong id="secondary" class="grey fontOne">Secondary</strong>
 				</div>
@@ -368,35 +376,37 @@
 
 		<!-- Contact -->
 		<section id="contact" class="container-fluid">
-			<div class="row center">
-				<header class="sectionHeader">
-					<div class="sectionNum pink fontTwo">04.</div>
-					<h2 class="fontOne">Contact</h2>
-				</header>
-			</div>
-			<div class="row center">
-				<strong id="getInTouch" class="pink fontOne">Get in Touch.</strong>
-			</div>
-			<div class="row center">
-				<form action="https://mailthis.to/michaelli.sw.eng@gmail.com" method="POST" enctype="multipart/form-data" autocomplete="off" class="row">
-					<div class="col-6 formDiv">
-						<input type="text" name="name" placeholder="Name" class="form fontOne">
-					</div>
-					<div class="col-6 formDiv">
-						<input type="text" name="email" placeholder="Email" class="form fontOne">
-					</div>
-					<div class="col-12 formDiv">
-						<input type="text" name="subject" placeholder="Subject" class="form fontOne">
-					</div>
-					<div class="col-12 formDiv">
-						<textarea name="message" placeholder="Message" class="form fontOne"></textarea>
-					</div>
-					<div class="col-12 center formDiv">
-						<input type="submit" value="Send Message" id="sendBtn" class="fontOne">
-					</div>
-				    <input type="hidden" name="_honeypot" value="">
-				    <input type="hidden" name="_confirmation" value="Your message was successfully sent to Michael Li!">
-				</form>
+			<div data-aos="fade-up" data-aos-duration="1250" data-aos-once="true">
+				<div class="row center">
+					<header class="sectionHeader">
+						<div class="sectionNum pink fontTwo">04.</div>
+						<h2 class="fontOne">Contact</h2>
+					</header>
+				</div>
+				<div class="row center">
+					<strong id="getInTouch" class="pink fontOne">Get in Touch.</strong>
+				</div>
+				<div class="row center">
+					<form action="https://mailthis.to/michaelli.sw.eng@gmail.com" method="POST" enctype="multipart/form-data" autocomplete="off" class="row">
+						<div class="col-6 formDiv">
+							<input type="text" name="name" placeholder="Name" class="form fontOne">
+						</div>
+						<div class="col-6 formDiv">
+							<input type="text" name="email" placeholder="Email" class="form fontOne">
+						</div>
+						<div class="col-12 formDiv">
+							<input type="text" name="subject" placeholder="Subject" class="form fontOne">
+						</div>
+						<div class="col-12 formDiv">
+							<textarea name="message" placeholder="Message" class="form fontOne"></textarea>
+						</div>
+						<div class="col-12 center formDiv">
+							<input type="submit" value="Send Message" id="sendBtn" class="fontOne">
+						</div>
+					    <input type="hidden" name="_honeypot" value="">
+					    <input type="hidden" name="_confirmation" value="Your message was successfully sent to Michael Li!">
+					</form>
+				</div>
 			</div>
 		</section>
 
@@ -404,5 +414,9 @@
 			<i class="fa fa-copyright pink footerIcon">2019</i>
 			<div class="footerText pink">Built by Michael Li</div>
 		</div>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html>
