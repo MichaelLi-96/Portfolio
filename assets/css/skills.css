@@ -27,7 +27,7 @@
 	justify-content: center;
 }
 
-.singleSkillContainer:hover > .primarySkillsDiamond {
+/*.singleSkillContainer:hover > .primarySkillsDiamond {
 	transition: all 0.35s;
 	-webkit-box-shadow: 0px 0px 30px 2px #F50057;
 	-moz-box-shadow: 0px 0px 30px 2px #F50057;
@@ -55,7 +55,7 @@
 	-webkit-box-shadow: 0px 0px 30px 2px #CDCDCD;
 	-moz-box-shadow: 0px 0px 30px 2px #CDCDCD;
 	box-shadow: 0px 0px 30px 2px #CDCDCD;
-}
+}*/
 
 #primary {
 	margin-top: 15px;
