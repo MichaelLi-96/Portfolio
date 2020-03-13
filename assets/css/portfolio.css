@@ -7,20 +7,19 @@
 }
 
 .projectContainer {
-	margin-top: 75px;
-	margin-bottom: 75px;
-	padding-left: 150px;
-	padding-right: 150px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-left: 125px;
+	padding-right: 125px;
 	display: flex;
 	flex-direction: row;
 }
 
-.horizontalProjectImageContainer {
-	display: flex;
-	justify-content: space-around;
+.leftProjectImageContainer {
+
 }
 
-.verticalProjectImageContainer {
+.rightProjectImageContainer {
 	padding-left: 100px !important;
 	display: flex;
 	justify-content: space-around;
@@ -29,28 +28,47 @@
 .horizontalProjectImage {
 	width: 100%;
 	height: auto;
-	border-radius: 20px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
 }
 
 .verticalProjectImage{
 	width: 40%;
 	height: auto;
-	border-radius: 20px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
 }
 
 .projectDescriptionLeft {
 	padding-left: 100px !important;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	flex-direction: column;
 }
 
 .projectDescriptionRight {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	flex-direction: column;
+}
+
+.projectTitleAndInfoContainer {
+	background-color: #1a1b1e;
+	padding: 30px 30px 30px 30px;
+	border: solid;
+	border-width: 2px;
+	border-color: #F50057;
+	border-radius: 10px;
+	margin-bottom: 25px;
+	-webkit-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
 }
 
 .projectTitleContainer {
@@ -65,26 +83,26 @@
 }
 
 .projectTitle {
-	font-size: 58px;
-	margin-right: 10px;
+	font-size: 50px;
+	margin-right: 20px;
 }
 
 .portfolioLinks {
-	padding-top: 15px; 
 }
 
 .projectIcon {
 	text-decoration: none !important;
-	margin-left: 30px;
-	transition: all 0.35s;
+	margin-left: 15px;
+	margin-right: 15px;
+	transition: all 0.3s;
 }
 
 .projectIcon:hover {
-	transform: scale(1.2, 1.2);
+	transform: scale(1.1, 1.1);
 	color: #F50057;
 }
 
-.tagContainer {
+.tagsContainer {
 	display: flex;
 	justify-content: center;
 	align-items: center; 
@@ -93,15 +111,17 @@
 }
 
 .tag {
-	background-color: transparent;
+	background-color: #1a1b1e;
 	border: solid;
 	border-width: 2px;
-	width: auto;
-	height: auto;
+	border-color: #F50057;
 	padding: 5px 15px 5px 15px;
-	border-radius: 25px;
-	font-size: 18px;
+	border-radius: 10px;
+	font-size: 20px;
 	margin: 10px 15px 10px 15px;
+	-webkit-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
 }
 
 @media (max-width: 992px) { 
