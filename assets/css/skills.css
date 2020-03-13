@@ -27,36 +27,6 @@
 	justify-content: center;
 }
 
-/*.singleSkillContainer:hover > .primarySkillsDiamond {
-	transition: all 0.35s;
-	-webkit-box-shadow: 0px 0px 30px 2px #F50057;
-	-moz-box-shadow: 0px 0px 30px 2px #F50057;
-	box-shadow: 0px 0px 30px 2px #F50057;
-}
-
-.singleSkillContainer:hover > .primarySkillName {
-	transition: all 0.35s;
-	-webkit-box-shadow: 0px 0px 30px 2px #F50057;
-	-moz-box-shadow: 0px 0px 30px 2px #F50057;
-	box-shadow: 0px 0px 30px 2px #F50057;
-	
-}
-
-.singleSkillContainer:hover > .secondarySkillsCircle {
-	transition: all 0.35s;
-	-webkit-box-shadow: 0px 0px 30px 2px #CDCDCD;
-	-moz-box-shadow: 0px 0px 30px 2px #CDCDCD;
-	box-shadow: 0px 0px 30px 2px #CDCDCD;
-	
-}
-
-.singleSkillContainer:hover > .secondarySkillName {
-	transition: all 0.35s;
-	-webkit-box-shadow: 0px 0px 30px 2px #CDCDCD;
-	-moz-box-shadow: 0px 0px 30px 2px #CDCDCD;
-	box-shadow: 0px 0px 30px 2px #CDCDCD;
-}*/
-
 #primary {
 	margin-top: 15px;
 	margin-bottom: 35px;

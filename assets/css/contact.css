@@ -21,30 +21,35 @@
 
 .form {
 	border-radius: 10px;
-	font-size: 20px;
+	font-size: 24px;
 	width: 100%;
 	padding-left: 25px;
 	padding-right: 25px;
+	transition: 0.3s;
 }
 
 .form:focus {
-	outline: 0px;
-	-webkit-box-shadow: 0px 0px 30px 2px #F50057);
-	-moz-box-shadow: 0px 0px 30px 2px #F50057;
-	box-shadow: 0px 0px 30px 2px #F50057;
-	-webkit-transition: all 0.5s ease-out;
-	-moz-transition: all 0.5s ease-out;
-	-o-transition: all 0.5s ease-out;
-	transition: all 0.5s ease-out;
+	outline: none;
+	border: solid;
+	border-color:  #F50057;
+	border-width: 2px; 
 }
 
 input {
 	height: 50px;
+	background-color: #1a1b1e;
+	border: solid;
+	border-color: #141417;
+	border-width: 2px;
 }
 
 textarea {
-	padding-top: 10px;
+	padding: 10px;
 	height: 200px;
+	background-color: #1a1b1e;
+	border: solid;
+	border-color: #141417;
+	border-width: 2px;
 }
 
 #sendBtn {
@@ -58,7 +63,7 @@ textarea {
 	border-width: 2px; 
 	border-style: solid;
 	border-color: #F50057;
-	transition: all 0.5s;
+	transition: all 0.3s;
 }
 
 #sendBtn:hover {
@@ -70,44 +75,25 @@ textarea {
 	outline: 0px;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 992px) { 
 	#contact {
 		padding-top: 100px;
 		padding-bottom: 100px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
 		width: 100%;
-		padding-left: 15px;
-		padding-right: 15px;
 	}
 
 	#getInTouch {
 		font-size: 45px;
-		margin-bottom: 30px;
-		text-align: center;
 	}
 
 	.form {
-		border-radius: 10px;
 		font-size: 16px;
-		width: 100%;
 		padding-left: 15px;
 		padding-right: 15px;
 	}
 
 	#sendBtn {
-		background-color: transparent;
-		border-radius: 10px;
-		color: #F50057;
-		height: auto;
-		width: auto;
 		padding: 15px 15px 15px 15px;
 		font-size: 18px;
-		border-width: 2px; 
-		border-style: solid;
-		border-color: #F50057;
-		transition: all 0.5s;
 	}
 }

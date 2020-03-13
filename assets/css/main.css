@@ -6,23 +6,18 @@ body {
 	display: flex;
 	flex-direction: column;
 	background-color: #212226 !important;
-	color: white !important;
 }
 
 p {
 	font-size: 22px;
 }
 
-.pNoMargin {
-	margin-bottom: 0px;
-}
-
 .fontOne {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 .fontTwo {
-	font-family: 'PT Mono', monospace;
+	font-family: 'Chakra Petch', sans-serif;
 }
 
 .pink {
@@ -30,7 +25,7 @@ p {
 }
 
 .grey {
-	color: #CDCDCD;
+	color: #d7d7d7;
 }
 
 .black {
@@ -38,18 +33,12 @@ p {
 }
 
 .white {
-	color: #ffffff; 
+	color: white; 
 }
 
 .center {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-}
-
-.sides {
-	display: flex;
-	justify-content: space-between;
 	align-items: center;
 }
 
@@ -59,34 +48,23 @@ p {
 	margin-right: 0px !important;
 }
 
-.container {
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-}
-
-.redBorder {
-	border-top: solid;
-	border-width: 3px;
-	border-color: #F50057;
-}
-
 .navbar {
 	padding-left: 50px !important;
 	padding-right: 50px !important;
-	background-color: #212226;
+	background-color: #1a1b1e;
 	width: 100%;
-	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
-	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 }
 
 .navbar-nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
+	align-items: center;
 	width: 100%;
-	background-color: #212226;
+	background-color: #1a1b1e;
 }
 
 .navbar-brand {
@@ -103,12 +81,10 @@ p {
 
 .navbarNum {
 	font-size: 20px;
-	margin-top: 5px;
 }
 
 .nav-link {
 	font-size: 22px;
-	color: white;
 	margin-right: 30px;
 	transition: all 0.2s;
 }
@@ -130,12 +106,6 @@ p {
 .navbar-toggler:focus {
 	outline: none;
 	border: 1px solid #F50057 !important;
-}
-
-.separator {
-	height: 3px;
-	width: 100%;
-	background-color: #F50057;
 }
 
 .sectionHeader {
@@ -174,23 +144,18 @@ p {
 .footerIcon {
 	font-size: 14px !important;
 	margin-right: 8px;
-	margin-bottom: 2px;
 }
 
 .footerText {
-	font-size: 12px;
+	font-size: 14px;
 }
 
-.col-md-6 {
+.col-lg-6 {
 	padding-left: 0px !important;
 	padding-right: 0px !important;
 }
 
-@media (max-width: 768px) { 
-	html {
-		scroll-behavior: smooth;
-	}
-
+@media (max-width: 992px) { 
 	p {
 		font-size: 16px;
 		text-align: center;
@@ -199,26 +164,16 @@ p {
 	.navbar {
 		padding-left: 25px !important;
 		padding-right: 25px !important;
-		background-color: #212226;
-		width: 100%;
-		-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
-		-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
-		box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);/
-	}
-
-	.navbar-nav {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		width: 100%;
-		background-color: #212226;
 	}
 
 	.navbarNum {
 		font-size: 18px;
-		margin-top: 5px;
-		margin-right: 5px;
+	}
+
+	.nav-link {
+		font-size: 20px;
+		margin-left: 10px;
+		margin-right: 0px;
 	}
 
 	#logo {
@@ -228,8 +183,6 @@ p {
 
 	.footerIcon {
 		font-size: 12px !important;
-		margin-right: 8px;
-		margin-bottom: 2px;
 	}
 
 	.footerText {

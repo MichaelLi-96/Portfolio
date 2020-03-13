@@ -13,14 +13,14 @@
 		<link rel="icon" href="assets/images/logo.png">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Lato|PT+Mono&display=swap" rel="stylesheet">
-		  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link href="https://fonts.googleapis.com/css?family=Chakra+Petch:300,300i,400,400i,500,500i,600,600i,700,700i|Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	</head>
 	<body>	
-		<nav id="navbar" class="navbar fixed-top navbar-expand-md">
+		<nav id="navbar" class="navbar fixed-top navbar-expand-lg">
 			<a class="navbar-brand" href="#welcome">
 				<img id="logo" src="./assets/images/logo.png" alt="Logo">
 			</a>
@@ -31,20 +31,20 @@
 			<div class="collapse navbar-collapse" id="navbarToggler">
 				<ul class="navbar-nav">
 					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-						<div class="navbarNum pink fontTwo">01.</div>
-						<a class="nav-link fontOne" href="#about">About</a>
+						<strong class="navbarNum pink fontTwo">01.</strong>
+						<a class="nav-link fontOne white" href="#about">About</a>
 					</li>
 					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-						<div class="navbarNum pink fontTwo">02.</div>
-						<a class="nav-link fontOne" href="#portfolio">Portfolio</a>
+						<strong class="navbarNum pink fontTwo">02.</strong>
+						<a class="nav-link fontOne white" href="#portfolio">Portfolio</a>
 					</li>
 					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-						<div class="navbarNum pink fontTwo">03.</div>
-						<a class="nav-link fontOne" href="#skills">Skills</a>
+						<strong class="navbarNum pink fontTwo">03.</strong>
+						<a class="nav-link fontOne white" href="#skills">Skills</a>
 					</li>
 					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-						<div class="navbarNum pink fontTwo">04.</div>
-						<a class="nav-link fontOne" href="#contact">Contact</a>
+						<strong class="navbarNum pink fontTwo">04.</strong>
+						<a class="nav-link fontOne white" href="#contact">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -52,26 +52,18 @@
 
 		<!-- Welcome -->
 		<section id="welcome" class="container">
-			<img src="./assets/images/welcome.jpg" alt="Welcome Background Image" id="welcomeBackgroundImage">
+			<img src="./assets/images/welcomeDecal.png" alt="Welcome Decal" id="welcomeBackgroundImage">
 			<div id="welcomeInfo" class="row">
-				<strong id="welcomeName" class="white fontOne" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" data-aos-delay="250">
-					&nbspMICHAEL LI&nbsp
-				</strong>
-				<div id="welcomeDescription" class="white fontOne" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-delay="900">
+				<div id="welcomeName" class="fontTwo pink">MICHAEL LI</div>
+				<div id="welcomeDescription" class="fontOne white">
 					I'm a software engineer based in San Francisco, CA with experience in full-stack development and a strong foundation in data structures and algorithms.
 				</div>
-				<div id="socials" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" data-aos-delay="1650">
+				<div id="socials">
 					<a class="fa fa-linkedin-square socialIcon white" href="https://www.linkedin.com/in/mikeli-96/" target="_blank" rel="nofollow noopener noreferrer"></a>
 					<a class="fa fa-github socialIcon white" href="https://github.com/MichaelLi-96" target="_blank" rel="nofollow noopener noreferrer"></a>
 					<a class="fa fa-file socialIcon white" href="./assets/resume/Michael_Li_Resume.pdf" target="_blank" rel="nofollow noopener noreferrer"></a>
 					<div class="white fontOne" id="email">MichaelLi.sw.eng@gmail.com</div>
 				</div>
-			</div>
-			<div class="row center" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-delay="2400">
-				<a id="arrowContainer" href="#about">
-					<div class="arrow"></div>
-					<div id="bottomArrow" class="arrow"></div>
-				</a>
 			</div>
 		</section>
 
@@ -80,8 +72,8 @@
 			<div class="row" data-aos="fade-up" data-aos-duration="1250" data-aos-once="true">
 				<div class="col-md-6 col-12">
 					<header id="aboutHeader" class="sectionHeader">
-						<div class="sectionNum pink fontTwo">01.</div>
-						<h2 class="fontOne">About Me</h2>
+						<strong class="sectionNum pink fontTwo">01.</strong>
+						<h2 class="fontOne white">About Me</h2>
 					</header>
 					<p class="grey fontOne">I am a graduate from San Jose State University with a B.S. in Software Engineering. Throughout my college career, I have gained valuable experience and technical skills. Some of these include web and mobile app development, data structures and algorithms, database management, user interface/experience, and computer security. I have experience in agile software development and the ability to work well together with different teams. I am eager to learn new skills and technologies as well as build on top of my existing skill set.<br /> 
 					<br /> 
@@ -98,8 +90,8 @@
 		<section id="portfolio" class="container-fluid">
 			<div class="row center" data-aos="fade-up" data-aos-duration="1250" data-aos-once="true">
 				<header class="sectionHeader">
-					<div class="sectionNum pink fontTwo">02.</div>
-					<h2 class="fontOne">Portfolio</h2>
+					<strong class="sectionNum pink fontTwo">02.</strong>
+					<h2 class="fontOne white">Portfolio</h2>
 				</header>
 			</div>
 
@@ -109,7 +101,7 @@
 				</div>
 				<div class="projectDescriptionLeft col-md-6 col-12">
 					<div class="row projectTitleContainer">
-						<strong class="projectTitle pink fontOne">csBasics</strong>
+						<strong class="projectTitle pink fontTwo">csBasics</strong>
 						<div class="portfolioLinks">
 							<a class="fa fa-github projectIcon white" href="https://github.com/MichaelLi-96/CsBasics" target="_blank" rel="nofollow noopener noreferrer"></a>
 							<a class="fa fa-external-link projectIcon white" href="https://csbasics.herokuapp.com" target="_blank" rel="nofollow noopener noreferrer"></a>
@@ -137,7 +129,7 @@
 			<div class="projectContainer row" data-aos="fade-up" data-aos-duration="1250" data-aos-once="true">
 				<div class="projectDescriptionRight col-md-6 col-12">
 					<div class="row projectTitleContainer">
-						<strong class="projectTitle pink fontOne">UniRooms</strong>
+						<strong class="projectTitle pink fontTwo">UniRooms</strong>
 						<div class="portfolioLinks">
 							<a class="fa fa-github projectIcon white" href="https://github.com/MichaelLi-96/UniRooms" target="_blank" rel="nofollow noopener noreferrer"></a>
 							<a class="fa fa-external-link projectIcon white" href="https://www.youtube.com/watch?v=uMTYP66pMXc" target="_blank" rel="nofollow noopener noreferrer"></a>
@@ -169,7 +161,7 @@
 				</div>
 				<div class="projectDescriptionLeft col-md-6 col-12">
 					<div class="row projectTitleContainer">
-						<strong class="projectTitle pink fontOne">Reservation System</strong>
+						<strong class="projectTitle pink fontTwo">Reservation System</strong>
 						<div class="portfolioLinks">
 							<a class="fa fa-github projectIcon white" href="https://github.com/MichaelLi-96/MovieTicketReservationSystem" target="_blank" rel="nofollow noopener noreferrer"></a>
 							<a class="fa fa-external-link projectIcon white" href="https://docs.google.com/document/d/1NUotn_Z76CyVeWXR-q6Elx-o45pDg_iPs0Mn-PIEnwk/edit" target="_blank" rel="nofollow noopener noreferrer"></a>
@@ -190,7 +182,7 @@
 			<div class="projectContainer row" data-aos="fade-up" data-aos-duration="1250" data-aos-once="true">
 				<div class="projectDescriptionRight col-md-6 col-12">
 					<div class="row projectTitleContainer">
-						<strong class="projectTitle pink fontOne">Stickman Survival</strong>
+						<strong class="projectTitle pink fontTwo">Stickman Survival</strong>
 						<div class="portfolioLinks">
 							<a class="fa fa-github projectIcon white" href="https://github.com/MichaelLi-96/StickmanSurvival" target="_blank" rel="nofollow noopener noreferrer"></a>
 							<a class="fa fa-external-link projectIcon white" href="https://www.youtube.com/watch?v=siKKqMPEzcs" target="_blank" rel="nofollow noopener noreferrer"></a>
@@ -218,7 +210,7 @@
 				</div>
 				<div class="projectDescriptionLeft col-md-6 col-12">
 					<div class="row projectTitleContainer">
-						<strong class="projectTitle pink fontOne">Cookbook of Gains</strong>
+						<strong class="projectTitle pink fontTwo">Cookbook of Gains</strong>
 						<div class="portfolioLinks">
 							<a class="fa fa-github projectIcon white" href="https://github.com/MichaelLi-96/Cookbook-of-Gains" target="_blank" rel="nofollow noopener noreferrer"></a>
 							<a class="fa fa-external-link projectIcon white" href="https://cookbook-of-gains.herokuapp.com/welcome/index" target="_blank" rel="nofollow noopener noreferrer"></a>
@@ -244,14 +236,14 @@
 		<section id="skills" class="container-fluid">
 			<div id="skillsHeader" class="row" data-aos="fade-up" data-aos-duration="1250" data-aos-once="true">
 				<header id="skillsTitle" class="sectionHeader">
-					<div class="sectionNum pink fontTwo">03.</div>
-					<h2 class="fontOne">Skills</h2>
+					<strong class="sectionNum pink fontTwo">03.</strong>
+					<h2 class="fontOne white">Skills</h2>
 				</header>
 			</div>
 
 			<div class="row" data-aos="fade-up" data-aos-duration="1250" data-aos-once="true">
 				<div class="row center">
-					<strong id="primary" class="pink fontOne">Primary</strong>
+					<strong id="primary" class="pink fontTwo">Primary</strong>
 				</div>
 				<div id="skillsContainer" class="row">
 					<div class="singleSkillContainer">
@@ -301,7 +293,7 @@
 
 			<div class="row" data-aos="fade-up" data-aos-duration="1250" data-aos-once="true">
 				<div class="row center">
-					<strong id="secondary" class="grey fontOne">Secondary</strong>
+					<strong id="secondary" class="grey fontTwo">Secondary</strong>
 				</div>
 				<div id="skillsContainer" class="row">
 					<div class="singleSkillContainer">
@@ -379,26 +371,26 @@
 			<div data-aos="fade-up" data-aos-duration="1250" data-aos-once="true">
 				<div class="row center">
 					<header class="sectionHeader">
-						<div class="sectionNum pink fontTwo">04.</div>
-						<h2 class="fontOne">Contact</h2>
+						<strong class="sectionNum pink fontTwo">04.</strong>
+						<h2 class="fontOne white">Contact</h2>
 					</header>
 				</div>
 				<div class="row center">
-					<strong id="getInTouch" class="pink fontOne">Get in Touch.</strong>
+					<strong id="getInTouch" class="pink fontTwo">Get in Touch.</strong>
 				</div>
 				<div class="row center">
 					<form action="https://mailthis.to/michaelli.sw.eng@gmail.com" method="POST" enctype="multipart/form-data" autocomplete="off" class="row">
 						<div class="col-6 formDiv">
-							<input type="text" name="name" placeholder="Name" class="form fontOne">
+							<input type="text" name="name" placeholder="Name" class="form fontOne grey">
 						</div>
 						<div class="col-6 formDiv">
-							<input type="text" name="email" placeholder="Email" class="form fontOne">
+							<input type="text" name="email" placeholder="Email" class="form fontOne grey">
 						</div>
 						<div class="col-12 formDiv">
-							<input type="text" name="subject" placeholder="Subject" class="form fontOne">
+							<input type="text" name="subject" placeholder="Subject" class="form fontOne grey">
 						</div>
 						<div class="col-12 formDiv">
-							<textarea name="message" placeholder="Message" class="form fontOne"></textarea>
+							<textarea name="message" placeholder="Message" class="form fontOne grey"></textarea>
 						</div>
 						<div class="col-12 center formDiv">
 							<input type="submit" value="Send Message" id="sendBtn" class="fontOne">
@@ -411,8 +403,8 @@
 		</section>
 
 		<div id="footer" class="center fontTwo">
-			<i class="fa fa-copyright pink footerIcon">2019</i>
-			<div class="footerText pink">Built by Michael Li</div>
+			<div class="fa fa-copyright pink footerIcon fontTwo">2019</div>
+			<div class="footerText pink fontTwo">Built by Michael Li</div>
 		</div>
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 		<script>
