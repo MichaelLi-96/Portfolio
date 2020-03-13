@@ -1,6 +1,6 @@
 #contact {
 	padding-top: 125px;
-	padding-bottom: 125px;
+	padding-bottom: 50px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -53,7 +53,7 @@ textarea {
 }
 
 #sendBtn {
-	background-color: transparent;
+	background-color: #1a1b1e;
 	border-radius: 10px;
 	color: #F50057;
 	height: auto;
@@ -63,6 +63,7 @@ textarea {
 	border-width: 2px; 
 	border-style: solid;
 	border-color: #F50057;
+	font-weight: 600;
 	transition: all 0.3s;
 }
 
@@ -78,7 +79,7 @@ textarea {
 @media (max-width: 992px) { 
 	#contact {
 		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-bottom: 25px;
 		width: 100%;
 	}
 
