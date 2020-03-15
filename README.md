@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="./assets/images/logo.png" width="100" />
+  <img alt="Logo" src="./assets/images/logo/logo.png" width="100" />
 </div>
 <h1 align="center">
   Michael Li's Portfolio Website
