@@ -61,10 +61,16 @@
 	#skills {
 		padding-top: 100px;
 		padding-bottom: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 
 	#skillsHeader {
 		width: 90%;
+	}
+
+	.skillRow {
+		width: 100%;
 	}
 
 	.skillContainer {
@@ -80,5 +86,11 @@
 
 	.skillName {
 		font-size: 18px;
+	}
+}
+
+@media (max-width: 768px) {
+	.skillName {
+		font-size: 16px;
 	}
 }

@@ -94,6 +94,8 @@
 
 .projectLinksContainer {
 	padding-left: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .projectIcon {
@@ -195,14 +197,22 @@
 	}
 
 	.projectTitle {
-		font-size: 38px;
+		font-size: 42px;
 	}
 
+	.tag {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 768px) {
 	.projectLinksContainer {
 		padding-left: 0px;
 	}
 
 	.tag {
-		font-size: 18px;
+		font-size: 14px;
+		padding: 4px 12px 4px 12px;
+		margin: 4px 8px 4px 8px;
 	}
 }

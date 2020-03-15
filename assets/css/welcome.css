@@ -84,7 +84,6 @@
 	}
 
 	#welcomeInfo {
-		width: 80%;
 		padding-bottom: 35px;
 	}
 
@@ -93,7 +92,7 @@
 	}
 
 	#welcomeDescription {
-		font-size: 20px;
+		font-size: 18px;
 		width: 85%;
 	}
 
@@ -103,14 +102,23 @@
 	}
 
 	#email {
-		font-size: 20px;
+		font-size: 18px;
 		margin-left: 15px;
 		margin-right: 15px;
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+	#welcomeInfo {
+		width: 90%;
+	}
+
+	#welcomeDescription {
+		font-size: 16px;
+	}
+
 	#email {
+		font-size: 16px;
 		margin-top: 10px;
 	}
 }

@@ -157,7 +157,7 @@ p {
 
 @media (max-width: 1200px) { 
 	p {
-		font-size: 20px;
+		font-size: 18px;
 		text-align: center;
 	}
 
@@ -205,4 +205,10 @@ p {
 		font-size: 39px !important;
 	}
 
+}
+
+@media (max-width: 768px) { 
+	p {
+		font-size: 16px;
+	}
 }
