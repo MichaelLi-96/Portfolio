@@ -13,7 +13,7 @@
 <br />
 
 ## Libraries Used
-* [AOS](http://michalsnik.github.io/aos/) (Fade-In on scroll)
+* [AOS](http://michalsnik.github.io/aos/) (Fade-in & flip-left on scroll)
 * [Bootstrap](https://getbootstrap.com/) (Navbar, grid)
 * [Font Awesome](https://fontawesome.com/) (Icons)
 
