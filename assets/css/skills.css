@@ -1,216 +1,84 @@
 #skills {
 	padding-top: 150px;
-	padding-bottom: 75px;
+	padding-bottom: 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	width: 85%;
-}
-
-#skillsTitle {
-	padding-left: 50px;
+	width: 100%;
 }
 
 #skillsHeader {
-	width: 100%;
+	width: 80%;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
+	margin-bottom: 25px;
 }
 
-.singleSkillContainer {
+.skillRow {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.skillContainer {
+	background-color: #1a1b1e;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-}
-
-#primary {
-	margin-top: 15px;
-	margin-bottom: 35px;
-	font-size: 50px;
-}
-
-#skillsContainer {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.primarySkillsDiamond {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 135px;
-	width: 135px;
-	margin: 65px 40px 65px 40px;
-	border: solid;
-	border-color: #F50057;
-	border-width: 2px;
-	transform: rotate(45deg);
-}
-
-.primarySkillsImage {
-	width: 50%;
-	height: auto;
-	transform: rotate(-45deg);
-}
-
-.primarySkillName {
+	width: 250px;
+	height: 250px;
+	margin: 20px;
 	border: solid;
 	border-width: 2px;
 	border-color: #F50057;
-	border-radius: 20px;
-	width: auto;
-	height: auto;
-	padding-left: 15px;
-	padding-right: 15px;
-	font-size: 20px;
-	color: #F50057;
-	text-align: center;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
 }
 
-#secondary {
-	margin-bottom: 35px;
-	margin-top: 100px;
-	font-size: 50px;
-}
-
-#secondarySkillsContainer {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.secondarySkillsCircle {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 125px;
+.skillImg {
 	width: 125px;
-	margin: 50px 30px 30px 30px;
-	border: solid;
-	border-color: #CDCDCD;
-	border-width: 2px;
-	border-radius: 65px;
+	height: 125px;
 }
 
-.secondarySkillsImage {
-	width: 50%;
-	height: auto;
-}
-
-.secondarySkillName {
-	border: solid;
-	border-width: 2px;
-	border-color: #CDCDCD;
-	border-radius: 20px;
-	width: auto;
-	height: auto;
-	padding-left: 15px;
-	padding-right: 15px;
-	font-size: 20px;
-	color: #CDCDCD;
+.skillName {
+	padding-top: 15px;
+	font-weight: bold;
+	font-size: 24px;
 	text-align: center;
 }
 
-@media (max-width: 768px) { 
+
+@media (max-width: 1200px) { 
 	#skills {
 		padding-top: 100px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		padding-left: 15px;
-		padding-right: 15px;
-		width: 100%;
-	}
-
-	#skillsTitle {
-		padding-left: 0px !important;
+		padding-bottom: 0px;
 	}
 
 	#skillsHeader {
-		width: 100%;
-		display: flex;
-		flex-direction: row;
-		justify-content: flex-start;
-		align-items: center;
+		width: 90%;
 	}
 
-	.singleSkillContainer {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;	
+	.skillContainer {
+		width: 150px;
+		height: 150px;
+		margin: 15px;
 	}
 
-	#primary {
-		margin-top: 40px;
-		margin-bottom: 5px;
-		font-size: 40px;
+	.skillImg {
+		width: 75px;
+		height: 75px;
 	}
 
-	.primarySkillsDiamond {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 90px;
-		width: 90px;
-		margin: 40px 30px 40px 30px;
-		border: solid;
-		border-color: #F50057;
-		border-width: 2px;
-		transform: rotate(45deg);
-	}
-
-	.primarySkillName {
-		border: solid;
-		border-width: 2px;
-		border-color: #F50057;
-		border-radius: 20px;
-		width: auto;
-		height: auto;
-		padding-left: 15px;
-		padding-right: 15px;
-		font-size: 16px;
-		color: #F50057;
-		text-align: center;
-	}
-
-	#secondary {
-		margin-top: 100px;
-		margin-bottom: 5px;
-		font-size: 40px;
-	}
-
-	.secondarySkillsCircle {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 90px;
-		width: 90px;
-		margin: 40px 30px 20px 30px;
-		border: solid;
-		border-color: #CDCDCD;
-		border-width: 2px;
-		border-radius: 65px;
-	}
-
-	.secondarySkillName {
-		border: solid;
-		border-width: 2px;
-		border-color: #CDCDCD;
-		border-radius: 20px;
-		width: auto;
-		height: auto;
-		padding-left: 15px;
-		padding-right: 15px;
-		font-size: 16px;
-		color: #CDCDCD;
-		text-align: center;
+	.skillName {
+		font-size: 18px;
 	}
 }

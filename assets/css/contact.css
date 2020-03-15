@@ -68,18 +68,18 @@ textarea {
 }
 
 #sendBtn:hover {
-	background-color: rgb(245, 0, 87, 0.75);
+	background-color: #F50057;
 	color: white;
+	cursor: pointer;
 }
 
 #sendBtn:focus {
 	outline: 0px;
 }
 
-@media (max-width: 992px) { 
+@media (max-width: 1200px) { 
 	#contact {
 		padding-top: 100px;
-		padding-bottom: 25px;
 		width: 100%;
 	}
 

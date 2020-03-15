@@ -82,12 +82,13 @@
 	justify-content: flex-start;
 	align-items: center;
 	border-bottom: solid;
+	border-width: 3px;
 	border-color: #F50057;
 	padding-bottom: 5px;
 }
 
 .projectTitle {
-	font-size: 50px;
+	font-size: 48px;
 	text-align: center;
 }
 
@@ -117,6 +118,8 @@
 
 .tag {
 	background-color: #1a1b1e;
+	font-weight: 600;
+	letter-spacing: 1px;
 	border: solid;
 	border-width: 2px;
 	border-color: #F50057;
@@ -129,9 +132,10 @@
 	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
 }
 
-@media (max-width: 992px) { 
+@media (max-width: 1200px) { 
 	#portfolio {
 		padding-top: 100px;
+		padding-bottom: 0px;
 		width: 95%;
 	}
 
@@ -191,7 +195,7 @@
 	}
 
 	.projectTitle {
-		font-size: 40px;
+		font-size: 38px;
 	}
 
 	.projectLinksContainer {
@@ -199,6 +203,6 @@
 	}
 
 	.tag {
-		font-size: 16px;
+		font-size: 18px;
 	}
 }
