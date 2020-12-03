@@ -176,9 +176,11 @@
 
 	.projectDescriptionLeft {
 		padding-left: 0px !important;
+		padding-right: 0px !important;
 	}
 
 	.projectDescriptionRight {
+		padding-left: 0px !important;
 		padding-right: 0px !important;
 	}
 
