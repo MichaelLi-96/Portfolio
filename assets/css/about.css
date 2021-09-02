@@ -1,50 +1,47 @@
 #about {
-	padding-top: 175px;
-	padding-bottom: 50px;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	width: 75%;
+  padding-top: 175px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 75%;
 }
 
 #aboutHeader {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 #aboutImageContainer {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 #aboutImage {
-	width: 80%;
-	height: auto;
-	border-radius: 10px;
-	filter: brightness(0.95);
-	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  filter: brightness(0.95);
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
 }
 
+@media (max-width: 1200px) {
+  #about {
+    padding-top: 100px;
+    padding-bottom: 0px;
+    width: 100%;
+  }
 
-@media (max-width: 1200px) { 
-	#about {
-		padding-top: 100px;
-		padding-bottom: 0px;
-		width: 100%;
-	}
+  #aboutImageContainer {
+    align-items: center;
+    margin-top: 30px;
+  }
 
-	#aboutImageContainer {
-		align-items: center;
-		margin-top: 30px;
-	}
-
-	#aboutImage {
-		width: 70%;
-	}
+  #aboutImage {
+    width: 70%;
+  }
 }
-
-
